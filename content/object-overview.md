@@ -14,7 +14,7 @@ The entire game is built using objects. They are the set of items and objects th
 
 [[armor|Armor]]
 
-[Body Part](<BodyPart.md>)
+[[body-part|Body Part]]
 
 [Book](<Book.md>)
 

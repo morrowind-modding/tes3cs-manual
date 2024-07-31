@@ -12,7 +12,7 @@ The script called **main** starts itself in the beginning of the game. This is u
 
 ## See Also
 
-[Script Commands](<ScriptCommands.md>)  
+[[gameplay/scripting/commands/index|Script Commands]]
 [Script Functions](<ScriptFunctions.md>)  
 [Sample Script](<SampleScript.md>)  
 [Global Scripts ](<GlobalScripts.md>)  

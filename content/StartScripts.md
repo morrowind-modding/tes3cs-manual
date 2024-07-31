@@ -18,7 +18,7 @@ Convenient for launching new quests and such.
 
 **See Also**
 
-[Script Commands](<ScriptCommands.md>)
+[[gameplay/scripting/commands/index|Script Commands]]
 
 [Script Functions](<ScriptFunctions.md>)
 

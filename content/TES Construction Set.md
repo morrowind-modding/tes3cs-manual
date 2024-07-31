@@ -29,7 +29,7 @@
 - [](<RotateWorld.md>)
 - [](<MoveWorld.md>)
 - [](<GetPlayerDistance.md>)
-- [Script Commands](<ScriptCommands.md>)
+- [[gameplay/scripting/commands/index|Script Commands]]
 - [](<UsingVariablesinFunctions.md>)
 - [](<DeclaringVariables.md>)
 - [](begin.md)
@@ -67,7 +67,7 @@
 - [](<Lockpick.md>)
 - [](<Probe.md>)
 - [](<MiscItem.md>)
-- [](<BodyPart.md>)
+- [[body-part|Body Part]]
 - [](<Light.md>)
 - [](<WaterLayer.md>)
 - [](<RepairItem.md>)
@@ -96,7 +96,7 @@
 - [](<Race.md>)
 - [](<Class.md>)
 - [](<Skills.md>)
-- [](<Birthsign.md>)
+- [[birthsign|Birthsign]]
 - [[gameplay/scripting/index|Scripting Overview]]
 - [](<GlobalScripts.md>)
 - [](<StartScripts.md>)
