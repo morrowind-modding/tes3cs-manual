@@ -1,0 +1,48 @@
+---
+title: The Elder Scrolls Construction Set
+aliases:
+  - The Elder Scrolls Construction Set
+---
+# 
+
+&nbsp;
+
+*The Elder Scrolls Construction Set* allows you to edit and create any data for use with *The Elder Scrolls 3: Morrowind*. Any data that goes into the game goes in through the Construction set and is stored in [data files](<DataFiles.md>) (labeled either ESM or ESP files) that are read by the game.
+
+&nbsp;
+
+The Construction Set allows you to create your own areas (towns, dungeons, islands, etc) and populate them with characters, creatures, and stories.
+
+&nbsp;
+
+You can add new [races](<Race.md>), [classes](<Class.md>), spells, potions, magic items, and anything else your mind can dream up.&nbsp;
+
+&nbsp;
+
+You can also edit the data that comes with *Morrowind*. Don’t like how fast everyone moves? Change the movement settings. Do you want Nords to start with better abilities? Want to rebalance spell costs? It’s all here.
+
+&nbsp;
+
+The most powerful feature of the Construction Set is the ability to create new data and stories, which are stored as plug-in files. You can place your plug-in on the Internet and have others play the quests and areas you have created. And since they are plug-ins, they add directly into someone’s existing game without damaging the data already there.
+
+&nbsp;
+
+Visit www.elderscrolls.com for info on how to download the best plug-ins out there.
+
+&nbsp;
+
+**Some early sections you should read:**
+
+[Data Files](<DataFiles.md>)
+
+[The Object Window](<ObjectWindow.md>)&nbsp;
+
+[The Render Window](<RenderWindow.md>)
+
+[The Cell View Window](<CellWindow.md>)
+
+&nbsp;
+
+
+***
+_Created with the Personal Edition of HelpNDoc: [Streamline your documentation process with HelpNDoc's WinHelp HLP to CHM conversion feature](<https://www.helpndoc.com/step-by-step-guides/how-to-convert-a-hlp-winhelp-help-file-to-a-chm-html-help-help-file/>)_
