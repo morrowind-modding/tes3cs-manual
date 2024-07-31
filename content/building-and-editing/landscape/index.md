@@ -20,7 +20,3 @@ Press **H** to enter Height editing mode. In this mode you can edit the heights 
 
 [[landscape-texturing|Landscape Texturing]]  
 [[landscape-shaping|Landscape Shaping]]
-
-
-***
-_Created with the Personal Edition of HelpNDoc: [Maximize Your Documentation Capabilities with a Help Authoring Tool](<https://www.helpauthoringsoftware.com>)_

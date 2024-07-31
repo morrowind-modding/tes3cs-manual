@@ -32,7 +32,7 @@
 - [Script Commands](<ScriptCommands.md>)
 - [](<UsingVariablesinFunctions.md>)
 - [](<DeclaringVariables.md>)
-- [](<Begin.md>)
+- [](begin.md)
 - [](<End.md>)
 - [](<ObjectReferencing.md>)
 - [System Requirements](<SystemRequirements.md>)
@@ -53,7 +53,7 @@
 - [](<Static.md>)
 - [](<Weapon.md>)
 - [[weapon-types|Weapon Types]]
-- [](<Armor.md>)
+- [[armor|Armor]]
 - [](<Clothing.md>)
 - [](<COZM8M.md>)
 - [](character-body-layout.md)
@@ -77,7 +77,7 @@
 - [](<Enchanting.md>)
 - [](<Ownership.md>)
 - [](character.md)
-- [](<AutoCalculateStats.md>)
+- [[auto-calculate-stats|Auto Calculate Stats]]
 - [](<Disposition.md>)
 - [[actors/ai/index|AI]]
 	- [](<Wander.md>)

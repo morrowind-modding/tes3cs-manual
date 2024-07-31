@@ -12,7 +12,9 @@ The entire game is built using objects. They are the set of items and objects th
 
 [apparatus](apparatus.md)
 
-[Armor](<Armor.md>)[Body Part](<BodyPart.md>)
+[[armor|Armor]]
+
+[Body Part](<BodyPart.md>)
 
 [Book](<Book.md>)
 

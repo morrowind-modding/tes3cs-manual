@@ -1,6 +1,6 @@
 # Script Commands
 
-[begin](<Begin.md>)&nbsp; &nbsp; ScriptName
+[[begin]] &nbsp; &nbsp; ScriptName
 
 [end](<End.md>)&nbsp; &nbsp; &nbsp; &nbsp; ScriptName
 

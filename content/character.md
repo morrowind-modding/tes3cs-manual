@@ -85,7 +85,7 @@ description:
 
 &nbsp;
 
-[*Auto Calculate Stats*](<AutoCalculateStats.md>)*:* Creates stats and spells automatically for the NPC based on his Race, Class, and Level.
+_[[auto-calculate-stats|Auto Calculate Stats]]:_ Creates stats and spells automatically for the NPC based on his Race, Class, and Level.
 
 &nbsp;
 
