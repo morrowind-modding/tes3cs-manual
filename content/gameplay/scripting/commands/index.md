@@ -12,9 +12,9 @@ description:
 
 ; comment
 
-[short](<DeclaringVariables.md>) &nbsp; &nbsp; varNameShort  
-[long](<DeclaringVariables.md>) &nbsp; &nbsp; varNameLong  
-[float](<DeclaringVariables.md>) &nbsp; &nbsp; varNameFloat  
+[[declaring-variables|short]] &nbsp; &nbsp; varNameShort  
+[[declaring-variables|long]] &nbsp; &nbsp; varNameLong  
+[[declaring-variables|float]] &nbsp; &nbsp; varNameFloat  
 
 set varName to 5  
 get varName

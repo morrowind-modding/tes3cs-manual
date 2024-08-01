@@ -148,7 +148,7 @@ This is short for "Disposition." Any dialogue with a disposition value will only
 
 ### Function/Variable
 
-These six conditions are where you have the most control over who says what when. See [Dialogue Functions and Variables](<DialogueVariables.md>).
+These six conditions are where you have the most control over who says what when. See [[dialogue-variables|Dialogue Functions and Variables]].
 
 ## Results
 

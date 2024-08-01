@@ -31,7 +31,7 @@
 - [](<GetPlayerDistance.md>)
 - [[gameplay/scripting/commands/index|Script Commands]]
 - [](<UsingVariablesinFunctions.md>)
-- [](<DeclaringVariables.md>)
+- [[declaring-variables|Declaring Variables]]
 - [](begin.md)
 - [](<End.md>)
 - [](<ObjectReferencing.md>)
@@ -107,10 +107,10 @@
 - [[animation-sound|Animation Sound]]
 - [](<Magic.md>)
 - [[actors/dialogue/index|Dialogue Overview]]
-- [](<QuestTitle.md>)
-- [](<TextDefines.md>)
-- [](<DialogueVariables.md>)
-- [](<DialogueFunctions.md>)
+	- [](<QuestTitle.md>)
+	- [](<TextDefines.md>)
+	- [[dialogue-variables|Dialogue Variables]]
+	- [[dialogue-functions|Dialogue Functions]]
 - [](<FriendHit.md>)
 - [](<J4POAA.md>)
 - [[game-settings|Game Settings]]
