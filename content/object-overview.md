@@ -16,11 +16,11 @@ The entire game is built using objects. They are the set of items and objects th
 
 [[body-part|Body Part]]
 
-[Book](<Book.md>)
+[[book|Book]]
 
-[Clothing](<Clothing.md>)
+[[clothing|Clothing]]
 
-[Container](<Container.md>)
+[[container|Container]]
 
 [Creature](<Creature.md>)
 
@@ -40,7 +40,7 @@ The entire game is built using objects. They are the set of items and objects th
 
 [Misc Item](<MiscItem.md>)
 
-[NPC ](character.md)
+[[npc|NPC]]
 
 [Probe](<Probe.md>)
 

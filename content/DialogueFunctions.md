@@ -214,7 +214,7 @@ This is 1 if the speaker has ever talked to the player and 0 otherwise. You can 
 
 **Weather**
 
-This returns the current weather so you can have people talk about the rain or the ash storms, etc. See [ChangeWeather](<ChangeWeather.md>) script command for enums on weather types.
+This returns the current weather so you can have people talk about the rain or the ash storms, etc. See [[change-weather|ChangeWeather]] script command for enums on weather types.
 
 &nbsp;
 

@@ -15,7 +15,7 @@ The Construction Set allows you to create your own areas (towns, dungeons, islan
 
 &nbsp;
 
-You can add new [races](<Race.md>), [classes](<Class.md>), spells, potions, magic items, and anything else your mind can dream up.&nbsp;
+You can add new [races](<Race.md>), [[class|classes]], spells, potions, magic items, and anything else your mind can dream up.&nbsp;
 
 &nbsp;
 
@@ -29,20 +29,12 @@ The most powerful feature of the Construction Set is the ability to create new d
 
 Visit www.elderscrolls.com for info on how to download the best plug-ins out there.
 
-&nbsp;
-
 **Some early sections you should read:**
 
 [Data Files](<DataFiles.md>)
 
-[The Object Window](<ObjectWindow.md>)&nbsp;
+[The Object Window](<ObjectWindow.md>)
 
 [The Render Window](<RenderWindow.md>)
 
-[The Cell View Window](<CellWindow.md>)
-
-&nbsp;
-
-
-***
-_Created with the Personal Edition of HelpNDoc: [Streamline your documentation process with HelpNDoc's WinHelp HLP to CHM conversion feature](<https://www.helpndoc.com/step-by-step-guides/how-to-convert-a-hlp-winhelp-help-file-to-a-chm-html-help-help-file/>)_
+[[the-cell-view-window|The Cell View Window]]

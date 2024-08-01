@@ -6,7 +6,7 @@
 - [](<MoonPhases.md>)
 - [](<InventoryScripts.md>)
 - [](<PlaceAtPC.md>)
-- [](<ChangeWeather.md>)
+	- [[change-weather|ChangeWeather]]
 - [](<ModRegion.md>)
 - [](<GetCurrentPackage.md>)
 - [](<StatScriptFunctions.md>)
@@ -15,7 +15,7 @@
 - [](<StopScript.md>)
 - [](<Position.md>)
 - [](<PositionCell.md>)
-- [](<CellUpdate.md>)
+- [[cell-update|CellUpdate]]
 - [](<GetPos.md>)
 - [](<GetAngle.md>)
 - [](<GetStartingPos.md>)
@@ -37,7 +37,7 @@
 - [](<ObjectReferencing.md>)
 - [System Requirements](<SystemRequirements.md>)
 - [](<Preferences.md>)
-- [](<CellOverview.md>)
+- [](building-and-editing/world/index.md)
 - [](<NamingCells.md>)
 - [](<ExteriorCell.md>)
 - [](<InteriorCell.md>)
@@ -53,15 +53,15 @@
 - [](<Static.md>)
 - [](<Weapon.md>)
 - [[weapon-types|Weapon Types]]
-- [[armor|Armor]]
-- [](<Clothing.md>)
+- [[clothing|Clothing]]
+- [](clothing.md)
 - [](<COZM8M.md>)
-- [](character-body-layout.md)
-- [](<Container.md>)
+	- [[character-body-layout|Character Body Layout]]
+- [[container|Container]]
 - [](<ObjectReference.md>)
 - [[activator|Activator]]
 - [](<Door.md>)
-- [](<Book.md>)
+- [[book|Book]]
 - [](<Ingredient.md>)
 - [](apparatus.md)
 - [](<Lockpick.md>)
@@ -76,7 +76,7 @@
 - [](<LeveledItem.md>)
 - [](<Enchanting.md>)
 - [](<Ownership.md>)
-- [](character.md)
+- [[npc|NPC]]
 - [[auto-calculate-stats|Auto Calculate Stats]]
 - [](<Disposition.md>)
 - [[actors/ai/index|AI]]
@@ -94,7 +94,7 @@
 - [](<LeveledCreature.md>)
 - [](<Factions.md>)
 - [](<Race.md>)
-- [](<Class.md>)
+- [[class|Class]]
 - [](<Skills.md>)
 - [[birthsign|Birthsign]]
 - [[gameplay/scripting/index|Scripting Overview]]
@@ -124,7 +124,7 @@
 - [[the-elder-scrolls-construction-set|The Elder Scrolls Construction Set]]
 - [](<ObjectWindow.md>)
 - [](<RenderWindow.md>)
-- [](<CellWindow.md>)
+- [[the-cell-view-window|The Cell View Window]]
 - [[preview-window|Preview Window]]
 - [](<GetEffect.md>)
 - [](<RemoveEffects.md>)

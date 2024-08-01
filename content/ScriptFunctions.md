@@ -289,7 +289,7 @@ ModWaterLevel, Val
 
 CellChanged&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;returns 1 for one frame when player changes cells
 
-[CellUpdate](<CellUpdate.md>)
+[[cell-update|CellUpdate]]
 
 [GetPos](<GetPos.md>), axis
 
@@ -493,13 +493,9 @@ Resurrect&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brings Actor back to life
 
 **Weather**
 
-[ChangeWeather](<ChangeWeather.md>), RegionID, TypeEnum
-
-GetCurrentWeather
-
-[ModRegion](<ModRegion.md>), RegionID, clear\_var, cloudy\_var, foggy\_var, overcast\_var, rain\_var, thunder\_var, ash\_var, blight\_var
-
-&nbsp;
+[[change-weather|ChangeWeather]], RegionID, TypeEnum  
+GetCurrentWeather  
+[ModRegion](<ModRegion.md>), RegionID, clear\_var, cloudy\_var, foggy\_var, overcast\_var, rain\_var, thunder\_var, ash\_var, blight\_var  
 
 **Console (in game only commands)**
 

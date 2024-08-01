@@ -25,4 +25,4 @@ _Blocked:_ If checked, the specific object becomes read-only.
 Note: For all skin body parts but the Head and Hair, only one type can be defined per race and sex.
 
 ## See Also
-[Character Body Layout](character-body-layout.md)
+[[character-body-layout|Character Body Layout]]  
