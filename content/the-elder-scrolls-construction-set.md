@@ -7,7 +7,7 @@ aliases:
 
 &nbsp;
 
-*The Elder Scrolls Construction Set* allows you to edit and create any data for use with *The Elder Scrolls 3: Morrowind*. Any data that goes into the game goes in through the Construction set and is stored in [data files](<DataFiles.md>) (labeled either ESM or ESP files) that are read by the game.
+*The Elder Scrolls Construction Set* allows you to edit and create any data for use with *The Elder Scrolls 3: Morrowind*. Any data that goes into the game goes in through the Construction set and is stored in [[data-files/index|data files]] (labeled either ESM or ESP files) that are read by the game.
 
 &nbsp;
 
@@ -31,7 +31,7 @@ Visit www.elderscrolls.com for info on how to download the best plug-ins out the
 
 **Some early sections you should read:**
 
-[Data Files](<DataFiles.md>)
+[[data-files/index|Data Files]]
 
 [The Object Window](<ObjectWindow.md>)
 

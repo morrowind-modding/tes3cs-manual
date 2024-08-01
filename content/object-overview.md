@@ -22,7 +22,7 @@ The entire game is built using objects. They are the set of items and objects th
 
 [[container|Container]]
 
-[Creature](<Creature.md>)
+[[creature|Creature]]
 
 [Door](<Door.md>)
 

@@ -18,7 +18,6 @@ Here is an example of multiple data files and what happens, as they are loaded.
 
 Overall it is vitally important that external creators document their important changes in the summary of their TES file.
 
-## See Also
-
-[Data Files Window ](<DataFilesWindow.md>)  
-[Data Files](<DataFiles.md>)  
+## See Also  
+[[data-files-window|Data Files Window]]   
+[[data-files/index|Data Files]]    

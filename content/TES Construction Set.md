@@ -43,9 +43,9 @@
 - [](<InteriorCell.md>)
 - [](<RegionS.md>)
 - [](<WorldTesting.md>)
-- [](<DataFiles.md>)
-- [[data-files-example|Data Files Example]]
-- [](<DataFilesWindow.md>)
+- [[data-files/index|Data Files]]
+	- [[data-files-example|Data Files Example]]
+	- [[data-files-window|Data Files Window]]
 - [[building-and-editing/landscape/index|Landscape Overview]]
 	- [[landscape-texturing|Landscape Texturing]]
 	- [[landscape-shaping|Landscape Shaping]]
@@ -55,7 +55,7 @@
 - [[weapon-types|Weapon Types]]
 - [[clothing|Clothing]]
 - [](clothing.md)
-- [](<COZM8M.md>)
+- [[actors/index|Character and Creature Overview]]
 	- [[character-body-layout|Character Body Layout]]
 - [[container|Container]]
 - [](<ObjectReference.md>)
@@ -90,7 +90,7 @@
 	- [[alarm|Alarm]]
 	- [](<Hello.md>)
 - [](<InfiniteInventoryItems.md>)
-- [](<Creature.md>)
+- [[creature|Creature]]
 - [](<LeveledCreature.md>)
 - [](<Factions.md>)
 - [](<Race.md>)
