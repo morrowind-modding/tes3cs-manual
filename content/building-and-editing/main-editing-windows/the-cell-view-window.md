@@ -24,5 +24,5 @@ By double clicking an object from the list of objects in the cell, your render v
 To rename a cell, select it, and then click its name. Remember that all interior cells must have unique names.
 
 ### See Also  
-[Cell Overview](building-and-editing/world/index.md)  
-[Naming Cells](<NamingCells.md>)  
+[[building-and-editing/world/index|Cell Overview]]  
+[[naming-cells|Naming Cells]]  

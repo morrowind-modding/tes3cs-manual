@@ -8,7 +8,7 @@ description:
 ## Script Commands
 
 [[begin]] &nbsp; &nbsp; ScriptName  
-[end](<End.md>) &nbsp; &nbsp; &nbsp; &nbsp; ScriptName  
+[end](end.md) &nbsp; &nbsp; &nbsp; &nbsp; ScriptName  
 
 ; comment
 

@@ -57,7 +57,7 @@
 - 2 Reference Data
 	- 3 Overview=Object Reference
 	-  3 Ownership=Ownership
-- 2 Infinite Inventory Items=Infinite Inventory Items
+	- 3 Infinite Inventory Items=Infinite Inventory Items
 
 ### Actors
 - 2 Overview=Character Overview
@@ -98,3 +98,10 @@
 	- 3 Commands=ScriptCommands
 	- 3 Functions=ScriptFunctions
 	- 3 Sample Script=Sample Script
+
+---
+
+## Uncategorized
+
+- [[enchanting|Enchanting]] - Listed in [[object-overview|Object Overview]] as a type of object, but does not appear under 'Object Types' in the Contents. **Placed in 'Object Types'**
+- [[the-preview-window|The Preview Window]] - uncategorized, but is one of the [[building-and-editing/main-editing-windows/index|Main Editing Windows]]. **Placed in 'Main Editing Windows'**

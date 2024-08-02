@@ -33,8 +33,8 @@ Visit www.elderscrolls.com for info on how to download the best plug-ins out the
 
 [[data-files/index|Data Files]]
 
-[The Object Window](<ObjectWindow.md>)
+[[the-object-window|The Object Window]]
 
-[The Render Window](<RenderWindow.md>)
+[[the-render-window|The Render Window]]
 
 [[the-cell-view-window|The Cell View Window]]

@@ -26,12 +26,10 @@ _Scroll_: If checked, book appears as scroll. If unchecked, book appears as a bo
 
 _Enchantment_: The number of enchantment points the item has. Used for enchanting.
 
-_Enchanting_: The enchantment attached to the object. Can only attach “Cast Once” type enchantings[^1] and only to scrolls.
+_Enchanting_: The enchantment attached to the object. Can only attach “Cast Once” type enchantings and only to scrolls.
 
 _Book Text_: In order for the text to appear as viewable in game, the book text uses a simplified HTML notation. To see an example of how the tags work, view the _Morrowind Books HTML.htm_ file in your Morrowind\\Data Files\\BookArt directory. Also view the source code on that file through your browser. (character limit: 64,000)
 
 _References Persist_: If checked, the object will remain persistent in world.
 
 _Blocked:_ If checked, the specific object becomes read-only.
-
-[^1]: Original text "enchantings" should be "enchantments"

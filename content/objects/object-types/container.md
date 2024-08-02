@@ -24,7 +24,7 @@ _Animation_: Animation used for object.
 
 _Add Art File_: Art used for object.
 
-_Inventory List_: A list of any object the container holds. Items of a negative value are [infinite](<InfiniteInventoryItems.md>).  
+_Inventory List_: A list of any object the container holds. Items of a negative value are [[objects/reference-data/infinite-inventory-items|infinite]].  
 &nbsp; &nbsp; _Count_: Number of that item in container.  
 &nbsp; &nbsp; _Object ID_: The object’s unique ID  
 &nbsp; &nbsp; _Type_: Type of object  

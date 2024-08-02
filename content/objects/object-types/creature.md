@@ -50,7 +50,7 @@ _Movement:_ Flies, walks, Swims, Biped or None
 
 &nbsp; &nbsp; _Biped:_ A check-box that sets the creature to use the same bone structure as an NPC. This allows these creatures to use the animations in the NPC’s Base Animation file.
 
-_Inventory / Spell List:_ A list of objects the creature is carrying along with spells it has available. Items of a negative value are [infinite](<InfiniteInventoryItems.md>). Spells may include diseases, abilities, etc.
+_Inventory / Spell List:_ A list of objects the creature is carrying along with spells it has available. Items of a negative value are [[objects/reference-data/infinite-inventory-items|infinite]]. Spells may include diseases, abilities, etc.
 
 _Sound Gen Creature:_ The base creature from which this creature derives its sounds.
 

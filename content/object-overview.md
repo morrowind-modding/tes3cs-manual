@@ -24,9 +24,9 @@ The entire game is built using objects. They are the set of items and objects th
 
 [[creature|Creature]]
 
-[Door](<Door.md>)
+[[door|Door]]
 
-[Enchanting](<Enchanting.md>)
+[[enchanting|Enchanting]]
 
 [Ingredient](<Ingredient.md>)
 
@@ -40,7 +40,7 @@ The entire game is built using objects. They are the set of items and objects th
 
 [Misc Item](<MiscItem.md>)
 
-[[npc|NPC]]
+[[actors/character/npc|NPC]]
 
 [Probe](<Probe.md>)
 

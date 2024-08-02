@@ -11,15 +11,15 @@ Think of a cell as a mini-map. The entire game is made up of cells, for a huge c
 
 There are two types of cells, exterior cells and interior cells.
 
-### [**Exterior Cells**](<ExteriorCell.md>)
+### **[[exterior-cell|Exterior Cells]]**
 
 The exterior cells are basically a grid that extends infinitely in all directions.
 
-### [**Interior Cells**](<InteriorCell.md>)
+### **[[interior-cell|Interior Cells]]**
 
 Interior Cells are entered through the exterior. When in an interior, the exterior world is no longer visible. Each interior cell is essentially it’s own universe.
 
 ### See Also
-[Naming Cells](<NamingCells.md>)  
-[Interior Cell](<InteriorCell.md>)  
-[Exterior Cell](<ExteriorCell.md>)  
+[[naming-cells|Naming Cells]]  
+[[interior-cell|Interior Cell]]  
+[[exterior-cell|Exterior Cell]]  

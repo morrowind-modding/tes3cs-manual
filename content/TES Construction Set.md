@@ -33,16 +33,16 @@
 - [](<UsingVariablesinFunctions.md>)
 - [[declaring-variables|Declaring Variables]]
 - [](begin.md)
-- [](<End.md>)
+- [](end.md)
 - [](<ObjectReferencing.md>)
 - [System Requirements](<SystemRequirements.md>)
 - [](<Preferences.md>)
-- [](building-and-editing/world/index.md)
-- [](<NamingCells.md>)
-- [](<ExteriorCell.md>)
-- [](<InteriorCell.md>)
-- [](<RegionS.md>)
-- [](<WorldTesting.md>)
+- [[building-and-editing/world/index|Cell Overview]]
+	- [[naming-cells|Naming Cells]]
+	- [[exterior-cell|Exterior Cell]]
+	- [[interior-cell|Interior Cell]]
+	- [[regions|Regions]]
+	- [[world-testing|World Testing]]
 - [[data-files/index|Data Files]]
 	- [[data-files-example|Data Files Example]]
 	- [[data-files-window|Data Files Window]]
@@ -54,13 +54,12 @@
 - [](<Weapon.md>)
 - [[weapon-types|Weapon Types]]
 - [[clothing|Clothing]]
-- [](clothing.md)
 - [[actors/index|Character and Creature Overview]]
 	- [[character-body-layout|Character Body Layout]]
 - [[container|Container]]
 - [](<ObjectReference.md>)
 - [[activator|Activator]]
-- [](<Door.md>)
+- [](door.md)
 - [[book|Book]]
 - [](<Ingredient.md>)
 - [](apparatus.md)
@@ -74,22 +73,22 @@
 - [](<Spellmaking.md>)
 - [[alchemy|Alchemy]]
 - [](<LeveledItem.md>)
-- [](<Enchanting.md>)
+- [[enchanting|Enchanting]]
 - [](<Ownership.md>)
-- [[npc|NPC]]
+- [[actors/character/npc|NPC]]
 - [[auto-calculate-stats|Auto Calculate Stats]]
-- [](<Disposition.md>)
+- [[disposition|Disposition]]
 - [[actors/ai/index|AI]]
 	- [](<Wander.md>)
 	- [](<Travel.md>)
 	- [](<Follow.md>)
-	- [](<Escort.md>)
+	- [[escort|Escort]]
 	- [[activate-ai|Activate]]
 	- [](<Fight.md>)
 	- [](<Flee.md>)
 	- [[alarm|Alarm]]
 	- [](<Hello.md>)
-- [](<InfiniteInventoryItems.md>)
+- [[objects/reference-data/infinite-inventory-items|Infinite Inventory Items]]
 - [[creature|Creature]]
 - [](<LeveledCreature.md>)
 - [](<Factions.md>)
@@ -122,10 +121,10 @@
 			- [[activate-ai|Activate]]
 - [[dungeon-tutorial|Dungeon Tutorial]]
 - [[the-elder-scrolls-construction-set|The Elder Scrolls Construction Set]]
-- [](<ObjectWindow.md>)
-- [](<RenderWindow.md>)
-- [[the-cell-view-window|The Cell View Window]]
-- [[preview-window|Preview Window]]
+	- [[the-object-window|The Object Window]]
+	- [[the-render-window|The Render Window]]
+	- [[the-cell-view-window|The Cell View Window]]
+	- [[the-preview-window|The Preview Window]]
 - [](<GetEffect.md>)
 - [](<RemoveEffects.md>)
 - [](<MagicEffectList.md>)

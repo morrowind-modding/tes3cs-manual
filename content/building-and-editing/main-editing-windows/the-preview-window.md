@@ -1,6 +1,7 @@
 ---
-title: Preview Window
+title: The Preview Window
 aliases:
+  - The Preview Window
   - Preview Window
 description: This window allows you to see a preview of the art for your selected object. You can also play the object’s animation.
 ---

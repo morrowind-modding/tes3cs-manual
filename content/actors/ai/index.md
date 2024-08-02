@@ -24,7 +24,7 @@ Each Actor may have a series of AI Packages. These are instructions they execute
 &nbsp; &nbsp; [Wander](<Wander.md>): Makes the actor wander around a set area.  
 &nbsp; &nbsp; &nbsp; [Travel](<Travel.md>): Makes the actor travel to a specified location.  
 &nbsp; &nbsp; &nbsp; [Follow](<Follow.md>): Makes the actor follow a specified target.  
-&nbsp; &nbsp; &nbsp; [Escort](<Escort.md>): Makes the actor escort another object to a specific location.  
+&nbsp; &nbsp; &nbsp; [[escort|Escort]]: Makes the actor escort another object to a specific location.  
 &nbsp; &nbsp; &nbsp; [[activate-ai|Activate]] : Makes the actor “use” an object in the world, such as a door or lever.  
 
 When an actor finishes one package, they will start the next one in the list. If the actor enters combat (fighting and fleeing), the current package is suspended until the fight is over or the actor has sufficiently fled.
