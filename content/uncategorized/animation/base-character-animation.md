@@ -19,6 +19,4 @@ Here are the file names that are included with a brief explanation of what they 
 
 **Khajiit/Argonian Base animations (1st person)** – Any animations included in this file will overwrite the 1st person animations from the male **and** female 1st person files.
 
-**Argonian Swim Base animation** – This file will overwrite the beast race base animation for[^1] **Argonian** NPC’s and Player Characters only.
-
-[^1]: Originally a line break occurred here before "...**Argonian** NPC's and...", breaking up the sentence. This was likely an editing mistake, mistaking the bolded word "**Argonian**" for a new animation type as each entry otherwise starts with a bolded phrase. The line break has been omitted here for readability's sake.
+**Argonian Swim Base animation** – This file will overwrite the beast race base animation for **Argonian** NPC’s and Player Characters only.

@@ -13,7 +13,7 @@ Both sections can be sorted by their respective fields: &nbsp; the cell list by 
 
 ## Loading/Moving to a Cel
 
-Double click the cell[^1] name and the render window will switch to an overhead view of that cell. If the cell is not currently loaded into memory you will get a pause while the art loads.
+Double click the cell name and the render window will switch to an overhead view of that cell. If the cell is not currently loaded into memory you will get a pause while the art loads.
 
 ## Switch View to an Object
 
@@ -26,5 +26,3 @@ To rename a cell, select it, and then click its name. Remember that all interior
 ### See Also  
 [Cell Overview](building-and-editing/world/index.md)  
 [Naming Cells](<NamingCells.md>)  
-
-[^1]: "Cell" is misspelled as "Cel" in the preceding heading, and on a few other pages. This is not a technical distinction; both "cell" and "cel" are used interchangeably for the same thing.

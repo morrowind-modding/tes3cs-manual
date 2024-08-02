@@ -1,1 +1,0 @@
-[^1]: "Cell" is misspelled as "Cel" here and on a few other pages. This is not a technical distinction; both "cell" and "cel" are used interchangeably to mean the same thing.
