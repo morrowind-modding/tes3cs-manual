@@ -35,8 +35,8 @@
 - [](begin.md)
 - [](end.md)
 - [](<ObjectReferencing.md>)
-- [System Requirements](<SystemRequirements.md>)
-- [](<Preferences.md>)
+- [[system-requirements|System Requirements]]
+- [[preferences|Preferences]]
 - [[building-and-editing/world/index|Cell Overview]]
 	- [[naming-cells|Naming Cells]]
 	- [[exterior-cell|Exterior Cell]]
@@ -91,7 +91,7 @@
 - [[objects/reference-data/infinite-inventory-items|Infinite Inventory Items]]
 - [[creature|Creature]]
 - [](<LeveledCreature.md>)
-- [](<Factions.md>)
+- [[factions|Factions]]
 - [](<Race.md>)
 - [[class|Class]]
 - [](<Skills.md>)
@@ -120,7 +120,7 @@
 - [](<OnActivate.md>)
 			- [[activate-ai|Activate]]
 - [[dungeon-tutorial|Dungeon Tutorial]]
-- [[the-elder-scrolls-construction-set|The Elder Scrolls Construction Set]]
+- [[getting-started/index|The Elder Scrolls Construction Set]]
 	- [[the-object-window|The Object Window]]
 	- [[the-render-window|The Render Window]]
 	- [[the-cell-view-window|The Cell View Window]]
