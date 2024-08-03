@@ -82,7 +82,7 @@ You cannot use Persuasion on Creatures, only NPCs.
 
 Journals show the text that is added to the player's journal with the Journal script function. Each journal has an index, which is used with the Journal command. This tab just shows all the journals and their text and index. For more information about how to use journals, see the Journal command.
 
-Starting with Tribunal, you can also name journal entries for tracking quests and flag them as completed. See [Quest Title ](<QuestTitle.md>).
+Starting with Tribunal, you can also name journal entries for tracking quests and flag them as completed. See \[[QuestTitle|Quest Title]].
 
 ## Filter for
 
@@ -98,7 +98,7 @@ The Info/Response window shows a few of the conditions which can be put on respo
 
 You can edit the text of each response in the large text window or, if the response is only a few characters, you can double-click in the Info/Response window and edit the text there. If you cut \& paste text into the editor, you should use the large text window, since the info/response window has a limit to the number of characters it can display. The large text window will let you enter up to 512 characters per response.
 
-Some game data can be displayed in dialogue. For a list of these, see [Text Defines](<TextDefines.md>).
+Some game data can be displayed in dialogue. For a list of these, see [[text-defines|Text Defines]].
 
 ## Speaker Condition
 
@@ -182,4 +182,4 @@ This button just closes the dialogue window. Note that any changes to dialogue a
 
 ## %Defines
 
-You can use various variables and defines in text, such as %Name, which is the name of the speaker. [See full list](<TextDefines.md>).
+You can use various variables and defines in text, such as %Name, which is the name of the speaker. [[text-defines|See full list]].

@@ -3,9 +3,6 @@ title: Game Settings
 aliases:
   - Game Settings
 ---
-# 
-
-&nbsp;
 
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  |
 | --- | --- |
@@ -31,9 +28,3 @@ aliases:
 |  |  |
 |  |  |
 
-
-&nbsp;
-
-
-***
-_Created with the Personal Edition of HelpNDoc: [Maximize Your Productivity with a Help Authoring Tool](<https://www.helpauthoringsoftware.com/articles/what-is-a-help-authoring-tool/>)_

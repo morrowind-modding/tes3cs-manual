@@ -1,16 +1,13 @@
-# 
-
-&nbsp;
-
+---
+title: 
+aliases: 
+description:
+---
 A leveled creature is a marker that chooses a creature to represent it in the world based on the level of the PC. When the cell is loaded, the creature will check the PC’s level and load the creature in its list that is closest to the PC’s level without going over. The user will fill in the level here for when that creature appears. If multiple creatures are listed for the same level, one is chosen at random. If no creatures meet the PC’s level, no creature is displayed.
-
-&nbsp;
 
 *ID*: The object’s unique ID. (character limit: 32)
 
-&nbsp;
-
-*Calculate from all levels \<= PC's level*: Will return creatures listed as equal to or below player's level (level #s are set in left column). If this is unchecked, only creature listed as equal to the PC’s level can be returned.
+_Calculate from all levels \<= PC's level_: Will return creatures listed as equal to or below player's level (level #s are set in left column). If this is unchecked, only creature listed as equal to the PC’s level can be returned.
 
 &nbsp;
 

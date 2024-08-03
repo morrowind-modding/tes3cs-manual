@@ -9,7 +9,7 @@ _The Elder Scrolls Construction Set_ allows you to edit and create any data for 
 
 The Construction Set allows you to create your own areas (towns, dungeons, islands, etc) and populate them with characters, creatures, and stories.
 
-You can add new [races](<Race.md>), [[class|classes]], spells, potions, magic items, and anything else your mind can dream up.
+You can add new [[race|races]], [[class|classes]], spells, potions, magic items, and anything else your mind can dream up.
 
 You can also edit the data that comes with _Morrowind_. Don’t like how fast everyone moves? Change the movement settings. Do you want Nords to start with better abilities? Want to rebalance spell costs? It’s all here.
 

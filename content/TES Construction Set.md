@@ -79,22 +79,22 @@
 - [[auto-calculate-stats|Auto Calculate Stats]]
 - [[disposition|Disposition]]
 - [[actors/ai/index|AI]]
-	- [](<Wander.md>)
-	- [](<Travel.md>)
-	- [](<Follow.md>)
+	- [[wander|Wander]]
+	- [[travel|Travel]]
+	- [[follow|Follow]]
 	- [[escort|Escort]]
 	- [[activate-ai|Activate]]
-	- [](<Fight.md>)
-	- [](<Flee.md>)
+	- [[fight|Fight]]
+	- [[flee|Flee]]
 	- [[alarm|Alarm]]
-	- [](<Hello.md>)
+	- [[hello|Hello]]
 - [[objects/reference-data/infinite-inventory-items|Infinite Inventory Items]]
 - [[creature|Creature]]
 - [](<LeveledCreature.md>)
 - [[factions|Factions]]
-- [](<Race.md>)
+- [[race|Race]]
 - [[class|Class]]
-- [](<Skills.md>)
+- [[skills|Skills]]
 - [[birthsign|Birthsign]]
 - [[gameplay/scripting/index|Scripting Overview]]
 - [](<GlobalScripts.md>)
@@ -106,8 +106,8 @@
 - [[animation-sound|Animation Sound]]
 - [](<Magic.md>)
 - [[actors/dialogue/index|Dialogue Overview]]
-	- [](<QuestTitle.md>)
-	- [](<TextDefines.md>)
+	- [[quest-title|Quest Title]]
+	- [[text-defines|Text Defines]]
 	- [[dialogue-variables|Dialogue Variables]]
 	- [[dialogue-functions|Dialogue Functions]]
 - [](<FriendHit.md>)
