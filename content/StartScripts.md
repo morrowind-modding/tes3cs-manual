@@ -12,6 +12,6 @@ Convenient for launching new quests and such.
 
 ## See Also  
 [[gameplay/scripting/commands/index|Script Commands]]  
-[[ScriptFunctions|Script Functions]]  
+[[gameplay/scripting/functions/index|Script Functions]]  
 [[SampleScript|Sample Script]]  
 [[GlobalScripts|Global Scripts]]  

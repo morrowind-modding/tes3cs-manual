@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-- [Script Functions](<ScriptFunctions.md>)
+- [[gameplay/scripting/functions/index|Script Functions]]
 - [](<MoonPhases.md>)
 - [](<InventoryScripts.md>)
 - [](<PlaceAtPC.md>)
@@ -104,15 +104,15 @@
 - [[animation-groups|Animation Groups]]
 - [](base-character-animation.md)
 - [[animation-sound|Animation Sound]]
-- [](<Magic.md>)
+- [](magic.md)
 - [[actors/dialogue/index|Dialogue Overview]]
 	- [[quest-title|Quest Title]]
 	- [[text-defines|Text Defines]]
 	- [[dialogue-variables|Dialogue Variables]]
 	- [[dialogue-functions|Dialogue Functions]]
 - [](<FriendHit.md>)
-- [](<J4POAA.md>)
-- [[game-settings|Game Settings]]
+- [[gameplay/game-settings/index|Game Settings]]
+- [[gameplay-settings|Gameplay Settings]]
 - [](<MessageBox.md>)
 - [](<Random.md>)
 - [](<MenuMode.md>)

@@ -109,6 +109,8 @@
 - [[quest-title|Quest Title]] - does not appear under Dialogue in contents, but is only referenced in [[actors/dialogue/index|Dialogue Overview]]. Moved to **Dialogue**
 - [[water-layer|Water Layer]] - uncategorized, no backlinks. Text references interior and exterior cells, so placed under `building-and-editing/world` [[building-and-editing/world/index|World]]
 - [[weapon-types|Weapon Types]] - uncategorized. Only backlink is to [[weapon|Weapon]]. Could have made the latter a folder an nested it there, but that would disrupt alphabetical order of [[objects/object-types/index|Object Types]] list. Opted to move it under sibling directory [[objects/reference-data/index|Reference Data]] instead
+- [[gameplay/game-settings/index|Game Settings]] - placed under [[gameplay/index|Gameplay]]
+	- [[gameplay-settings|Gameplay Settings]] - placed under [[gameplay/game-settings/index|Game Settings]]
 
 ## Notes listed under multiple folders:
 - [[creature|Creature]] - listed under

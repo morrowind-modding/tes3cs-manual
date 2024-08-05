@@ -32,22 +32,18 @@ _Hit Effects_: Select Sound and Visual files for hit effects.
 
 _Area Effects_: Select Sound and Visual files for area effects.
 
-_Scale_:
+_Scale_:  
+&nbsp; &nbsp; &nbsp; &nbsp; _Speed_ - Speed multiplier for how fast the effect travels.  
+&nbsp; &nbsp; &nbsp; &nbsp; _Size_ - Set how much the visual effect should scale based on its magnitude.  
+&nbsp; &nbsp; &nbsp; &nbsp; _Size Cap_ - The largest multiplier the effect can be scaled by.
 
-_Speed_ - Speed multiplier for how fast the effect travels.
+_Lighting Effect_:  
+&nbsp; &nbsp; &nbsp; &nbsp; _RGB values_: Choose the color the magic effect adds to the world.  
 
-_Size_ - Set how much the visual effect should scale based on its magnitude.
+&nbsp; &nbsp; &nbsp; &nbsp; _Fire_: Use this flag if the 3D object used for the light has particles attached to it. This tells the game to stop the particles when the fire time is used up.
 
-_Size Cap_ - The largest multiplier the effect can be scaled by.
+&nbsp; &nbsp; &nbsp; &nbsp; _Flicker_: Makes the magic effect’s lighting “flicker”, or randomly change its brightness.
 
-_Lighting Effect_:
+&nbsp; &nbsp; &nbsp; &nbsp; _Negative_: If checked, this makes the lighting “dark”. The color you selected for the light will be removed from the world, not added. So a white negative light will act like a black light.
 
-_RGB values_: Choose the color the magic effect adds to the world.
-
-_Fire_: Use this flag if the 3D object used for the light has particles attached to it. This tells the game to stop the particles when the fire time is used up.
-
-_Flicker_: Makes the magic effect’s lighting “flicker”, or randomly change its brightness.
-
-_Negative_: If checked, this makes the lighting “dark”. The color you selected for the light will be removed from the world, not added. So a white negative light will act like a black light.
-
-_Dynamic_: If checked, this tells the lighting to light up any dynamic or moving objects (such as characters and creatures). Dynamic lights slow the game down a little more.
+&nbsp; &nbsp; &nbsp; &nbsp; _Dynamic_: If checked, this tells the lighting to light up any dynamic or moving objects (such as characters and creatures). Dynamic lights slow the game down a little more.

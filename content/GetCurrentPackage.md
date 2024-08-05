@@ -1,7 +1,7 @@
 ---
 title: GetCurrentPackage
 aliases:
-  - GetCurrentPackage
+  - GetCurrentAIPackage
 description: Used for checking the current AI package an Actor is performing.
 ---
 GetCurrentPackage

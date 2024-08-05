@@ -1,13 +1,15 @@
 ---
-title: 
-aliases: 
-description: Game settings let you change several defined variables for use in the game. These range from movement speeds, numbers used in combat formulas, to the text displayed on menus.
+title: Game Settings
+aliases:
+  - Game Settings
+  - GMST
+description: Game settings let you change several defined variables for use in the game.
 ---
 Game settings let you change several defined variables for use in the game. These range from movement speeds, numbers used in combat formulas, to the text displayed on menus.
 
 There are several sections for settings:
 
-[[game-settings|Gameplay]] &nbsp; &nbsp; &nbsp; Numbers used in gameplay formulas.
+[[gameplay-settings|Gameplay]] &nbsp; &nbsp; &nbsp; Numbers used in gameplay formulas.
 
 Items &nbsp; &nbsp; &nbsp; &nbsp; Text used for standard item names.
 
