@@ -22,7 +22,7 @@ This is not a revised version of the TES3CS help documentation - it is a histori
 As the original text has been unaltered, it includes a number of errors, anachronisms and inconsistencies. These include:
 
 - "Cell" is misspelled often (but not always) as "Cel" - this is merely a spelling error, not a technical distinctinction.
-- Invented words are used, which are not sourced from or used in the context of TES lore, or otherwise used as a canonical technical term by Bethesda anywhere else in the TES3CS docs (e.g., using "enchantings" instead of "enchantments")
+- Invented words are used, which are not sourced from or used in the context of TES lore, nor otherwise used as a canonical technical term by Bethesda anywhere else in the TES3CS docs (e.g., using "enchantings" instead of "enchantments")
 - Language is occasionally gendered unnecessarily, referring to male pronouns instead of gender-neutral pronouns where the text is not only applicable to males.
 - Some aspects of MWScript presented are inaccurate or outright incorrect.
 	- _such as?_

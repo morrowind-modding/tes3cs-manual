@@ -12,8 +12,8 @@ Like other scripts, global scripts can refer to other objects and so forth, but 
 
 The following functions are used on global scripts:
 
-[ScriptRunning](<ScriptRunning.md>), ScriptName
+[[ScriptRunning|ScriptRunning]], ScriptName
 
-[StartScript](<StartScript.md>), ScriptName
+[[StartScript|StartScript]], ScriptName
 
-[StopScript](<StopScript.md>), ScriptName
+[[StopScript|StopScript]], ScriptName

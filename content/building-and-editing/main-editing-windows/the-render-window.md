@@ -36,7 +36,7 @@ Press **<kbd>F</kbd>** to make objects fall. They will hit any object. You may h
 ## Editing Object Data  
 Double clicking an object opens its properties window. Changes made to an object here that are not explicit reference data, such as ownership, are inherited by the other objects of this ID in the world.
 
-If you edit weap\_longsword\_07, and make it do more damage, you have changed every weap\_longsword\_07 in the world. See also [Object Reference](<ObjectReference.md>).
+If you edit weap\_longsword\_07, and make it do more damage, you have changed every weap\_longsword\_07 in the world. See also [[objects/reference-data/index|Object Reference]].
 
 ## Deleting Objects  
 Pressing delete will delete the selected objects from the world.

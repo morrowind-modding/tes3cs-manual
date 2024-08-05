@@ -1,10 +1,10 @@
-# 
-
-&nbsp;
-
+---
+title: Magic Effects List
+aliases:
+  - Magic Effects List
+description: When using script commands with magic effects, the following values should be used.
+---
 When using script commands with magic effects, the following values should be used.
-
-&nbsp;
 
 sEffectWaterBreathing   \
 sEffectSwiftSwim\
@@ -144,7 +144,3 @@ sEffectVampirism\
 sEffectSummonCenturionSphere\
 sEffectSunDamage\
 sEffectStuntedMagicka
-
-
-***
-_Created with the Personal Edition of HelpNDoc: [Revolutionize Your Documentation Output with HelpNDoc's Stunning User Interface](<https://www.helpndoc.com/feature-tour/stunning-user-interface/>)_

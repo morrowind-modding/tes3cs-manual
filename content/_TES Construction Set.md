@@ -49,32 +49,32 @@
 - [[building-and-editing/landscape/index|Landscape Overview]]
 	- [[landscape-texturing|Landscape Texturing]]
 	- [[landscape-shaping|Landscape Shaping]]
-- [](object-overview.md)
-- [](<Static.md>)
-- [](<Weapon.md>)
-- [[weapon-types|Weapon Types]]
-- [[clothing|Clothing]]
 - [[actors/index|Character and Creature Overview]]
 	- [[character-body-layout|Character Body Layout]]
-- [[container|Container]]
-- [](<ObjectReference.md>)
-- [[activator|Activator]]
-- [](door.md)
-- [[book|Book]]
-- [](<Ingredient.md>)
-- [](apparatus.md)
-- [](<Lockpick.md>)
-- [](<Probe.md>)
-- [](<MiscItem.md>)
-- [[body-part|Body Part]]
-- [](<Light.md>)
-- [](<WaterLayer.md>)
-- [](<RepairItem.md>)
-- [](<Spellmaking.md>)
-- [[alchemy|Alchemy]]
-- [](<LeveledItem.md>)
-- [[enchanting|Enchanting]]
-- [](<Ownership.md>)
+- [[objects/index|Object Overview]]
+	- [[container|Container]]
+	- [[clothing|Clothing]]
+	- [[activator|Activator]]
+	- [[door|Door]]
+	- [[book|Book]]
+	- [[ingredient|Ingredient]]
+	- [[apparatus|Apparatus]]
+	- [[lockpick|Lockpick]]
+	- [[probe|Probe]]
+	- [[misc-item|Misc Items]]
+	- [[body-part|Body Part]]
+	- [[light|Light]]
+	- [[water-layer|Water Layer]]
+	- [[repair-item|Repair Item]]
+	- [[spellmaking|Spellmaking]]
+	- [[alchemy|Alchemy]]
+	- [[leveled-item|Leveled Item]]
+	- [[enchanting|Enchanting]]
+	- [[static|Static]]
+	- [[weapon|Weapon]]
+		- [[weapon-types|Weapon Types]]
+- [[objects/reference-data/index|Object Reference]]
+- [[ownership|Ownership]]
 - [[actors/character/npc|NPC]]
 - [[auto-calculate-stats|Auto Calculate Stats]]
 - [[disposition|Disposition]]
@@ -90,7 +90,7 @@
 	- [[hello|Hello]]
 - [[objects/reference-data/infinite-inventory-items|Infinite Inventory Items]]
 - [[creature|Creature]]
-- [](<LeveledCreature.md>)
+- [[objects/object-types/leveled-creature|Leveled Creature]]
 - [[factions|Factions]]
 - [[race|Race]]
 - [[class|Class]]

@@ -103,7 +103,18 @@
 
 ## Uncategorized
 
-- [[enchanting|Enchanting]] - Listed in [[object-overview|Object Overview]] as a type of object, but does not appear under 'Object Types' in the Contents. **Placed in 'Object Types'**
+- [[enchanting|Enchanting]] - Listed in [[objects/index|Object Overview]] as a type of object, but does not appear under 'Object Types' in the Contents. **Placed in 'Object Types'**
 - [[the-preview-window|The Preview Window]] - uncategorized, but is one of the [[building-and-editing/main-editing-windows/index|Main Editing Windows]]. **Placed in 'Main Editing Windows'**
 - [[factions]] - uncategorized; appears under 'character' menu in the CS. Moved to [[actors/character/index|Character]]
 - [[quest-title|Quest Title]] - does not appear under Dialogue in contents, but is only referenced in [[actors/dialogue/index|Dialogue Overview]]. Moved to **Dialogue**
+- [[water-layer|Water Layer]] - uncategorized, no backlinks. Text references interior and exterior cells, so placed under `building-and-editing/world` [[building-and-editing/world/index|World]]
+- [[weapon-types|Weapon Types]] - uncategorized. Only backlink is to [[weapon|Weapon]]. Could have made the latter a folder an nested it there, but that would disrupt alphabetical order of [[objects/object-types/index|Object Types]] list. Opted to move it under sibling directory [[objects/reference-data/index|Reference Data]] instead
+
+## Notes listed under multiple folders:
+- [[creature|Creature]] - listed under
+	- `objects/object-types/` [[objects/object-types/index|Object Types]]
+	- `actors/creature/` [[actors/creature/index|Creature]]
+- [[objects/object-types/leveled-creature|Leveled Creature]] - listed under
+	- `objects/object-types/` [[objects/object-types/index|Object Types]]
+	- `actors/creature/` [[actors/creature/index|Creature]]
+- 

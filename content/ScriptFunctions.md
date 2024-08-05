@@ -1,3 +1,9 @@
+---
+title: Script Functions
+aliases:
+  - Script Functions
+description:
+---
 # Script Functions
 
 &nbsp;
@@ -291,35 +297,35 @@ CellChanged&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;returns 1 for one frame wh
 
 [[cell-update|CellUpdate]]
 
-[GetPos](<GetPos.md>), axis
+[[GetPos|GetPos]], axis
 
-[GetAngle ](<GetAngle.md>), axis
+[[GetAngle|GetAngle]], axis
 
 GetLOS, ObjectID&nbsp; &nbsp; &nbsp; &nbsp; ;returns true if object has a line of sight to other object(ObjectID)
 
 GetDistance, ObjectID&nbsp; &nbsp; &nbsp; &nbsp; ;returns the distance the object has to ObjectID.
 
-[GetStartingPos ](<GetStartingPos.md>), axis
+[[GetStartingPos|GetStartingPos]], axis
 
-[GetStartingAngle ](<GetStartingAngle.md>), axis
+[[GetStartingAngle|GetStartingAngle]], axis
 
-[Move](<Move.md>), axis, units/sec
+[[Move|Move]], axis, units/sec
 
-[MoveWorld](<MoveWorld.md>), axis, units/sec
+[[MoveWorld|MoveWorld]], axis, units/sec
 
-[PlaceAtPC](<PlaceAtPC.md>), ObjectID, count, distance, direction
+[[PlaceAtPC|PlaceAtPC]] ObjectID, count, distance, direction
 
 PlaceItem, ObjectID,&nbsp; x, y, z, rot &nbsp; &nbsp; &nbsp; &nbsp;
 
 PlaceItemCell, ObjectID, celID x, y, z, rot
 
-[Rotate ](<Rotate.md>), axis, angle/sec
+[[Rotate|Rotate]], axis, angle/sec
 
-[RotateWorld](<RotateWorld.md>), axis, angle/sec
+[[RotateWorld|RotateWorld]], axis, angle/sec
 
-[Position](<Position.md>), x, y, z, zRot
+[[Position|Position]], x, y, z, zRot
 
-[PositionCell](<PositionCell.md>), x, y, z, zRot, “cellID”
+[[PositionCell|PositionCell]], x, y, z, zRot, “cellID”
 
 SetAtStart
 
@@ -383,7 +389,7 @@ DisableVanityMode
 
 EnableLevelUpMenu
 
-EnablePlayerControls&nbsp; &nbsp; &nbsp; &nbsp; Enables the controls and menus.&nbsp;
+EnablePlayerControls&nbsp; &nbsp; &nbsp; &nbsp; Enables the controls and menus.
 
 EnablePlayerJumping
 
@@ -413,43 +419,31 @@ GetPlayerViewSwitch
 
 GetVanityModeDisabled
 
-PCGet3rdPerson&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns 1 if in 3rd person mode
+PCGet3rdPerson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns 1 if in 3rd person mode
 
-PCForce3rdPerson&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; queue the change to 3rd person mode (this may have to
+PCForce3rdPerson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; queue the change to 3rd person mode (this may have to wait for the animation to finish)
 
-wait for the animation to finish)
-
-PCForce1stPerson&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; same as above but 1st person mode
-
-&nbsp;
-
-&nbsp;
+PCForce1stPersonb&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; same as above but 1st person mode
 
 **Player Sleeping**
 
-GetPCSleep&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true if pc is sleeping.
+GetPCSleep &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true if pc is sleeping.
 
-ShowRestMenu&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brings up rest menu, for beds in illegal cels
+ShowRestMenu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brings up rest menu, for beds in illegal cels
 
-WakeUpPC&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Wakes up PC
-
-&nbsp;
+WakeUpPC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Wakes up PC
 
 **Time**
 
-[GetSecondsPassed ](<GetSecondsPassed.md>)
-
-&nbsp;
+[[GetSecondsPassed|GetSecondsPassed]]
 
 **Script**
 
-[ScriptRunning](<ScriptRunning.md>), ScriptName
+[[ScriptRunning|ScriptRunning]], ScriptName
 
-[StartScript](<StartScript.md>), ScriptName
+[[StartScript|StartScript]], ScriptName
 
-[StopScript](<StopScript.md>), ScriptName
-
-&nbsp;
+[[StopScript|StopScript]], ScriptName
 
 **Sound**
 
