@@ -179,7 +179,7 @@ GetPCSneaking &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 if player is in Sneak Mode
 GetPCRunning &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 if player is running  
 GetPCJumping &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 ever time the player starts a jump  
 
-## Player Controls
+### Player Controls
 DisablePlayerControls &nbsp; &nbsp; &nbsp; &nbsp; Can only look around with mouse or use options menu, nothing else and menus disappear.  
 DisablePlayerFighting  
 DisablePlayerJumping  
