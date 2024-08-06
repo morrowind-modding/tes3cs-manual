@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/MasssiveJuice08/tes3cs-manual",
+      "Discord Community": "https://discord.gg/UdM3VrmJsc",
+      "Morrowind Modding Wiki": "https://morrowind-modding.github.io/",
     },
   }),
 }
@@ -27,10 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      folderClickBehavior: "link", 
-      filterFn: (node) => node.name !== "Templates",
-    })),
+    Component.DesktopOnly(Component.Explorer({folderClickBehavior: "link"})),
   ],
   right: [
     Component.Graph(),
@@ -47,10 +45,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      folderClickBehavior: "link", 
-      filterFn: (node) => node.name !== "Templates",
-    })),
+    Component.DesktopOnly(Component.Explorer({folderClickBehavior: "link"})),
   ],
   right: [
     Component.Graph(),

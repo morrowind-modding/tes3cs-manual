@@ -4,6 +4,8 @@ aliases:
   - Home
 description: Morrowind's Construction Set help docs, translated from .hlp to Markdown and hosted via Quartz.
 ---
+_A [Morrowind Modding Wiki](https://morrowind-modding.github.io/) project_
+
 ![[morrowind-construction-set-loading-screen.jpg|banner]]
 
 > _"The entire world is handcrafted by us - every dungeon, tree, rock and even flower has been given consideration to its location and relevance."_  
