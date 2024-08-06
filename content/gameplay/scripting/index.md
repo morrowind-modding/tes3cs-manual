@@ -2,6 +2,7 @@
 title: Scripting
 aliases:
   - Scripting Overview
+  - Scripting
 description: Scripts are small pieces of code that can be placed inside of objects that allows them to perform special actions.
 ---
 You’ve probably noticed that all objects have a field in them for a script. Scripts are small pieces of code that can be placed inside of objects that allows them to perform special actions.
@@ -14,6 +15,6 @@ The script called **main** starts itself in the beginning of the game. This is u
 
 [[gameplay/scripting/commands/index|Script Commands]]  
 [[gameplay/scripting/functions/index|Script Functions]]  
-[[SampleScript|Sample Script]]  
-[[GlobalScripts|Global Scripts]]  
-[[StartScripts|Start Scripts]]  
+[[sample-script|Sample Script]]  
+[[global-scripts|Global Scripts]]  
+[[start-scripts|Start Scripts]]  

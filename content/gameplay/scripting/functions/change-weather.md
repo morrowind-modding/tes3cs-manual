@@ -25,5 +25,5 @@ The weather type enum are as follows:
 ```
 
 ## See also:
-[ModRegion](<ModRegion.md>), RegionID, clear\_var, cloudy\_var, foggy\_var, overcast\_var, rain\_var, thunder\_var, ash\_var, blight\_var  
+[[mod-region|ModRegion]], RegionID, clear\_var, cloudy\_var, foggy\_var, overcast\_var, rain\_var, thunder\_var, ash\_var, blight\_var  
 GetCurrentWeather  

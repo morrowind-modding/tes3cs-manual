@@ -14,7 +14,7 @@ AiFollow, ActorID, duration, x, y, z, \[reset\]
 AiFollowCell, ActorID, CellID, duration, x, y, z, \[reset\]  
 AiTravel, x, y, z, \[reset\]  
 AiWander, range, duration, time, \[idle2\], \[idle3\], …\[idle9\], \[reset\]  
-[[GetCurrentPackage|GetCurrentAIPackage]] &nbsp; &nbsp; ;returns the current package the NPC is doing (0 through 4)  
+[[get-current-package|GetCurrentAIPackage]] &nbsp; &nbsp; ;returns the current package the NPC is doing (0 through 4)  
 GetAIPackageDone &nbsp; &nbsp; ;returns true if current package has finished.  
 GetDetected, ActorID &nbsp; &nbsp; &nbsp; &nbsp; Returns true if object can detect ActorID. Slow function, do not call a lot.  
 ForceSneak&nbsp; &nbsp; &nbsp; &nbsp; Make the npc sneak if he wanted to run he will only walk  
@@ -22,9 +22,9 @@ ClearForceSneak
 GetForceSneak  
 
 ### Animation  
-[[PlayGroup|PlayGroup]], GroupName, \[Flags\]  
-[[LoopGroup|LoopGroup]], GroupName, Number, \[Flags\]  
-[[SkipAnim|SkipAnim]]  
+[[play-group|PlayGroup]], GroupName, \[Flags\]  
+[[loop-group|LoopGroup]], GroupName, Number, \[Flags\]  
+[[skip-anim|SkipAnim]]  
 
 ### Collision  
 GetCollidingPC &nbsp; &nbsp; &nbsp; &nbsp; Object returns true if PC is colliding with it.  
@@ -78,18 +78,18 @@ AddItem, ObjectID, count &nbsp; &nbsp; &nbsp; &nbsp; adds item to calling object
 Drop, ObjectID, count &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; calling Actor drops item into world at his feet.  
 Equip, ObjectID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equips the calling item on its owner  
 GetItemCount, ObjectID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns the count on the objectID in the calling object  
-[[OnActivate|OnActivate]] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if calling object is activated  
+[[on-activate|OnActivate]] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if calling object is activated  
 OnRepair &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if calling object is repaired at all  
 RemoveItem, objectID, count &nbsp; &nbsp; &nbsp; &nbsp; removes the item from the calling object. Does NOT drop it.  
 RepairedOnMe, objectID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if calling object is repaired by objected  
-[[UsedOnMe|UsedOnMe]], objectID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if objectID is used on calling object
+[[used-on-me|UsedOnMe]], objectID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if objectID is used on calling object
 
 GetWeaponType &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns a number (1-long blade one hand; 2-long blade two hand, 3 - blunt, etc.) based on the class of weapon the actor has equipped.  
 GetArmorType  
 HasItemEquipped  
 
 #### See also:  
-[[InventoryScripts|Inventory Scripts]]
+[[inventory-scripts|Inventory Scripts]]
 
 ### Magic  
 AddSoulgem, CreatureID, SoulgemID  
@@ -102,14 +102,14 @@ EnableLevitation
 EnableTeleporting  
 GetBlightDisease &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 if has BlightDisease  
 GetCommonDisease &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 if has CommonDisease  
-[[GetEffect|GetEffect]], Effect &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 if Actor is being effected by effect  
+[[get-effect|GetEffect]], Effect &nbsp; &nbsp; &nbsp; &nbsp; Returns 1 if Actor is being effected by effect  
 GetSpell, SpellID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true if object has SpellID in inventory  
 GetSpellEffects, SpellID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true if calling object is being effected by spellID  
 HasSoulgem, CreatureID  
 RemoveSoulgem, CreatureID  
 RemoveSpell, SpellID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; remove spell item from calling objects inventory  
 RemoveSpellEffects, SpellID &nbsp; &nbsp; &nbsp; &nbsp; remove spell effects of SpellID from effecting the calling object  
-[[RemoveEffects|RemoveEffects]], Effect &nbsp; &nbsp; &nbsp; &nbsp; removes all spells with the EffectEnum from effecting the calling object
+[[remove-effects|RemoveEffects]], Effect &nbsp; &nbsp; &nbsp; &nbsp; removes all spells with the EffectEnum from effecting the calling object
 
 ### Miscellaneous  
 Enable &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Makes the object visible and processed.  
@@ -123,16 +123,16 @@ GetDisabled &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true
 GetLocked &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns 1 or 0  
 GetPCCell, Cell ID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true if PC is in CellID named. Works like dialogue in that “Vivec” returns true for both “Vivec” and “Vivec, Fred’s House”.  
 GotoJail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sends PC to Prison.  
-[[MoonPhases|GetMasserPhase]]  
-[[MoonPhases||GetSecundusPhase]]  
+[[moon-phases|GetMasserPhase]]  
+[[moon-phases||GetSecundusPhase]]  
 GetStandingPC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Object returns true if PC is standing on it.  
 GetStandingActor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Object returns true if ANY actor (including PC) is standing on it.  
 Lock, Var &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets the door or container to the specified lock level.  
-[[MenuMode|MenuMode]]  
-[[MessageBox|MessageBox]], “Message”, \[var1\], \[var2\], \[“button1”\], \[“button2”\]  
+[[menu-mode|MenuMode]]  
+[[message-box|MessageBox]], “Message”, \[var1\], \[var2\], \[“button1”\], \[“button2”\]  
 PayFine &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; call after paying a crime fee to clean AI  
 PlayBink “filename” flag &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Pauses game and plays video. Set Flag to true if player can escape movie.  
-[[Random|Random]], Value  
+[[random|Random]], Value  
 ShowMap cellID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; show all the cells that start with this string on the world map  
 Unlock &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; makes object unlocked, doors and containers only  
 Xbox &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns true if running Xbox version, used for button messages  
@@ -144,21 +144,21 @@ ModWaterLevel, Val
 ### Movement  
 CellChanged &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;returns 1 for one frame when player changes cells  
 [[cell-update|CellUpdate]]  
-[[GetPos|GetPos]], axis  
-[[GetAngle|GetAngle]], axis  
+[[get-pos|GetPos]], axis  
+[[get-angle|GetAngle]], axis  
 GetLOS, ObjectID &nbsp; &nbsp; &nbsp; &nbsp; ;returns true if object has a line of sight to other object(ObjectID)  
 GetDistance, ObjectID &nbsp; &nbsp; &nbsp; &nbsp; ;returns the distance the object has to ObjectID.  
-[[GetStartingPos|GetStartingPos]], axis  
-[[GetStartingAngle|GetStartingAngle]], axis  
-[[Move|Move]], axis, units/sec  
-[[MoveWorld|MoveWorld]], axis, units/sec  
-[[PlaceAtPC|PlaceAtPC]] ObjectID, count, distance, direction  
+[[get-starting-pos|GetStartingPos]], axis  
+[[get-starting-angle|GetStartingAngle]], axis  
+[[move|Move]], axis, units/sec  
+[[move-world|MoveWorld]], axis, units/sec  
+[[place-at-pc|PlaceAtPC]] ObjectID, count, distance, direction  
 PlaceItem, ObjectID, &nbsp; x, y, z, rot &nbsp; &nbsp; &nbsp; &nbsp;  
 PlaceItemCell, ObjectID, celID x, y, z, rot  
-[[Rotate|Rotate]], axis, angle/sec  
-[[RotateWorld|RotateWorld]], axis, angle/sec  
-[[Position|Position]], x, y, z, zRot  
-[[PositionCell|PositionCell]], x, y, z, zRot, “cellID”  
+[[rotate|Rotate]], axis, angle/sec  
+[[rotate-world|RotateWorld]], axis, angle/sec  
+[[position|Position]], x, y, z, zRot  
+[[position-cell|PositionCell]], x, y, z, zRot, “cellID”  
 SetAtStart  
 SetAngle, axis, angle  
 SetPos, axis, pos  
@@ -213,12 +213,12 @@ ShowRestMenu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brings up rest menu, for 
 WakeUpPC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Wakes up PC  
 
 ### Time
-[[GetSecondsPassed|GetSecondsPassed]]  
+[[get-seconds-passed|GetSecondsPassed]]  
 
 ### Script  
-[[ScriptRunning|ScriptRunning]], ScriptName  
-[[StartScript|StartScript]], ScriptName  
-[[StopScript|StopScript]], ScriptName  
+[[script-running|ScriptRunning]], ScriptName  
+[[start-script|StartScript]], ScriptName  
+[[stop-script|StopScript]], ScriptName  
 
 ### Sound  
 GetSoundPlaying soundID  
@@ -235,15 +235,15 @@ StopSound, SoundID &nbsp; &nbsp; &nbsp; &nbsp; stops the soundID if it is curren
 
 ### Stats  
 GetDeadCount, ObjectID &nbsp; &nbsp; ; returns how many of this objID have been killed  
- [[StatScriptFunctions|GetStat]]  
-[[StatScriptFunctions|SetStat]], NewValue  
-[[StatScriptFunctions|ModStat]], Mod  
+ [[stat-script-functions|GetStat]]  
+[[stat-script-functions|SetStat]], NewValue  
+[[stat-script-functions|ModStat]], Mod  
 Resurrect &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brings Actor back to life  
 
 ### Weather  
 [[change-weather|ChangeWeather]], RegionID, TypeEnum  
 GetCurrentWeather  
-[[ModRegion|ModRegion]], RegionID, clear\_var, cloudy\_var, foggy\_var, overcast\_var, rain\_var, thunder\_var, ash\_var, blight\_var  
+[[mod-region|ModRegion]], RegionID, clear\_var, cloudy\_var, foggy\_var, overcast\_var, rain\_var, thunder\_var, ash\_var, blight\_var  
 
 ### Console (in game only commands)  
 CenterOnCell (coc), CellID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Places the PC in the named cell.  

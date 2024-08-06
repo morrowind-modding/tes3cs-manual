@@ -2,6 +2,7 @@
 title: Dialogue
 aliases:
   - Dialogue Overview
+  - Dialogue
 description: Dialogue in Morrowind is one large database that every NPC and creature pulls from.
 ---
 Dialogue in Morrowind is one large database that every NPC and creature pulls from. The basic principle being that a character will say the highest priority dialogue they pass all conditions for. If they pass no conditions, they have nothing to say about that topic.
@@ -144,7 +145,7 @@ This lets you assign dialogue to one gender or the other.
 
 ### Disp
 
-This is short for "Disposition." Any dialogue with a disposition value will only be said by people whose disposition is higher than this number (for the exception, see Service Refusal above).
+This is short for "[[disposition|Disposition]]." Any dialogue with a disposition value will only be said by people whose disposition is higher than this number (for the exception, see Service Refusal above).
 
 ### Function/Variable
 

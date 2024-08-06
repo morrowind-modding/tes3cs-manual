@@ -2,6 +2,9 @@
 title: Regions
 aliases:
   - Regions
+  - Region Map Color
+  - Weather Chances
+  - Ambient Sounds
 description: The Regions window allows the user to set and edit different regions, which are areas of the exterior world with unique weather and ambient sounds.
 ---
 The Regions window allows the user to set and edit different regions, which are areas of the exterior world with unique weather and ambient sounds.

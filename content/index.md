@@ -17,7 +17,7 @@ Originally packaged with Morrowind as a WinHelp `.hlp` file, most users will now
 
 ## Disclaimer
 
-This is not a revised version of the TES3CS help documentation - it is a historical document presented verbatim for posterity's sake.
+This is not a revised version of the TES3CS help documentation - it is a historical document presented verbatim\* for posterity's sake.
 
 As the original text has been unaltered, it includes a number of errors, anachronisms and inconsistencies. These include:
 
@@ -26,6 +26,8 @@ As the original text has been unaltered, it includes a number of errors, anachro
 - Language is occasionally gendered unnecessarily, referring to male pronouns instead of gender-neutral pronouns where the text is not only applicable to males.
 - Some aspects of MWScript presented are inaccurate or outright incorrect.
 	- _such as?_
+
+\*Although the text is been preserved, the folder structure has been adjusted due to a large number of [[appendix#Uncategorized Notes|uncategorized notes]] which were otherwise difficult to find in the original TES3CS Help Docs.
 
 ## Credits
 

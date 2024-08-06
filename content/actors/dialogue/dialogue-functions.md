@@ -34,7 +34,7 @@ This is the AI Fight Setting of the speaker. This is the base value, not the val
 This returns the base value of the speaker's Flee AI Setting.  
 
 ## Friend Hit  
-[Detailed explanation](<FriendHit.md>).  
+[[friend-hit|Detailed explanation]].  
 
 ## Health Percent  
 This returns the percent health of the speaker.  

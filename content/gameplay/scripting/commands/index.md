@@ -32,8 +32,8 @@ if ( varName \!= x )
 if ( varName \>= x )  
 if ( varName \<= x )  
 
-set [objectID](<ObjectReferencing.md>).varName to 100  
-[objectID](<ObjectReferencing.md>) -\>rotate, z, 45  
+set [[object-referencing|objectID]].varName to 100  
+[[object-referencing|objectID]] -\>rotate, z, 45  
 
 ### See Also
-[Using Variables in Functions](<UsingVariablesinFunctions.md>)  
+[[using-variables-in-functions|Using Variables in Functions]]  

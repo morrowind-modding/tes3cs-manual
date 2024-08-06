@@ -7,7 +7,7 @@ description: Most AI in Morrowind is handled within the actor (character or crea
 ---
 Most AI in Morrowind is handled within the actor (character or creature) themselves. They will decide how to behave based on their current stats.
 
-These stats include their attributes, skills, health, disposition, etc. It also includes 4 stats that are set through the AI window. These are
+These stats include their attributes, skills, health, [[disposition]], etc. It also includes 4 stats that are set through the AI window. These are
 
 &nbsp; &nbsp; [[fight|Fight]]: How much the actor wants to fight the PC.
 

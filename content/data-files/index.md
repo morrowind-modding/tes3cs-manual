@@ -2,6 +2,10 @@
 title: Data Files
 aliases:
   - Data Files
+  - masters
+  - esm
+  - esp
+  - plugins
 description: The Construction Set works off of a primary file called a TES file. This is basically a database of all of the data for the world
 ---
 The Construction Set works off of a primary file called a TES file. This is basically a database of all of the data for the world, including object data, dialogue, gameplay settings, object placements, AI settings, landscape, script commands, cells, etc. Basically everything that goes into the editor is stored in TES files. One giant database.

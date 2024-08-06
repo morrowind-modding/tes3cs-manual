@@ -17,4 +17,4 @@ If the object has any animation attached to it, buttons will appear at the top o
 You can right click the preview window to load/view a new model. This DOES NOT make the currently selected object use this model; it is only for viewing purposes.
 
 ### See Also
-[[animation|Animation]]
+[[actors/animation/index|Animation]]

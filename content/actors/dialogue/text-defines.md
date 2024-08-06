@@ -4,12 +4,12 @@ aliases:
   - Text Defines
 description: The following can be used in text strings, such as dialogue and message boxes.
 ---
-The following can be used in text strings, such as dialogue and message boxes:
+The following can be used in text strings, such as dialogue and [[message-box|message boxes]]:
 
 &nbsp; &nbsp; \%Name &nbsp; &nbsp; &nbsp; &nbsp; The speaker's name.  
 &nbsp; &nbsp; \%PCName &nbsp; &nbsp; The player's name.  
 &nbsp; &nbsp; \%Race &nbsp; &nbsp; &nbsp; &nbsp; The speaker's race.  
-&nbsp; &nbsp; \%PCRace &nbsp; &nbsp; The player's race.  
+&nbsp; &nbsp; \%[[pc-race|PCRace]] &nbsp; &nbsp; The player's race.  
 &nbsp; &nbsp; \%Class &nbsp; &nbsp; &nbsp; &nbsp; The speaker's class.  
 &nbsp; &nbsp; \%PCClass &nbsp; &nbsp; The player's class.  
 &nbsp; &nbsp; \%Faction &nbsp; &nbsp; The speaker's faction. If they have no faction, it will be blank.  
