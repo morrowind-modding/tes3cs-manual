@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/MasssiveJuice08/tes3cs-manual",
-      "Discord Community": "https://discord.gg/UdM3VrmJsc",
+      "Discord": "https://discord.gg/UdM3VrmJsc",
       "Morrowind Modding Wiki": "https://morrowind-modding.github.io/",
     },
   }),
@@ -22,6 +22,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.MobileOnly(Component.TableOfContents()),
   ],
   left: [
     Component.PageTitle(),
@@ -31,7 +32,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({folderClickBehavior: "link"})),
   ],
   right: [
-    Component.Graph(),
+    Component.MobileOnly(Component.Explorer({folderClickBehavior: "link"})),
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -39,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta(), Component.MobileOnly(Component.TableOfContents())],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -48,7 +50,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({folderClickBehavior: "link"})),
   ],
   right: [
-    Component.Graph(),
+    Component.MobileOnly(Component.Explorer({folderClickBehavior: "link"})),
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
