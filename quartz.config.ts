@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "TES3 Construction Set Docs",
+    pageTitle: "TES3CS Docs",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
