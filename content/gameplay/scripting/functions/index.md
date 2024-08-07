@@ -124,7 +124,7 @@ GetLocked &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; returns 1 or 0
 GetPCCell, Cell ID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Returns true if PC is in CellID named. Works like dialogue in that “Vivec” returns true for both “Vivec” and “Vivec, Fred’s House”.  
 GotoJail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sends PC to Prison.  
 [[moon-phases|GetMasserPhase]]  
-[[moon-phases||GetSecundusPhase]]  
+[[moon-phases|GetSecundusPhase]]  
 GetStandingPC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Object returns true if PC is standing on it.  
 GetStandingActor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Object returns true if ANY actor (including PC) is standing on it.  
 Lock, Var &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets the door or container to the specified lock level.  
