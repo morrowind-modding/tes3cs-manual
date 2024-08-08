@@ -34,6 +34,6 @@ As the original text has been unaltered, it includes a number of errors, anachro
 - [HelpNDoc](https://www.helpndoc.com/), used to convert the `.hlp` file to Markdown files which were then edited to match the original docs as viewed in WinHelp
 - Obsidian, used to author the Markdown content
 - Quartz, used to build the site
-- Vercel, for hosting
+- Cloudflare, for hosting
 
 [^1]: ['TES CONSTRUCTION SET - WORLD BUILDING', elderscrolls.com, date saved: 2006-01-05, ](https://web.archive.org/web/20060105022248/http://www.elderscrolls.com/downloads/media_movies.htm)
