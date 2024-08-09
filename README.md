@@ -25,15 +25,18 @@ As the original text has been unaltered, it includes a number of errors, anachro
 
 \*Although the text is been preserved, the folder structure has been adjusted due to a large number of [uncategorized notes](https://tes3cs-manual.vercel.app/appendix#uncategorized-notes) which were otherwise difficult to find in the original TES3CS Help Docs.
 
+## Ownership and Copyright
+
+The Elder Scrolls, Morrowind, Tribunal, Bloodmoon, Bethesda Softworks, ZeniMax and their respective logos are registered trademarks or trademarks of ZeniMax Media Inc.
+
 ## Credits
 
-- _insert all-rights-reserved-Bethesda-legalese here_
-- MassiveJuice and Greatness7
+- MassiveJuice and Greatness7 for converting and editing the docs to be hosted here.
 - Morrowind Modding Wiki
 - Knuth Konrad for their [winhlp32-on-windows10](https://github.com/knuth-konrad/winhlp32-on-windows10) guide to installing WinHelp on Windows 10/11.
 - [HelpNDoc](https://www.helpndoc.com/), used to convert the `.hlp` file to Markdown files which were then edited to match the original docs as viewed in WinHelp
-- Obsidian, used to author the Markdown content
-- Quartz, used to build the site
-- Cloudflare, for hosting
+- [Obsidian.md](https://obsidian.md/), used to author the Markdown content
+- [Quartz](https://quartz.jzhao.xyz/), used to build the site
+- [Cloudflare](https://www.cloudflare.com/), for hosting
 
 [^1]: ['TES CONSTRUCTION SET - WORLD BUILDING', elderscrolls.com, date saved: 2006-01-05, ](https://web.archive.org/web/20060105022248/http://www.elderscrolls.com/downloads/media_movies.htm)
