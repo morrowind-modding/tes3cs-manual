@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { sortFn } from "./functions"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -29,10 +30,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({folderClickBehavior: "link"})),
+    Component.DesktopOnly(Component.Explorer({
+      folderClickBehavior: "link",
+      sortFn: sortFn,
+    })),
   ],
   right: [
-    Component.MobileOnly(Component.Explorer({folderClickBehavior: "link"})),
+    Component.MobileOnly(Component.Explorer({
+      folderClickBehavior: "link",
+      sortFn: sortFn,
+    })),
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
@@ -47,10 +54,16 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({folderClickBehavior: "link"})),
+    Component.DesktopOnly(Component.Explorer({
+      folderClickBehavior: "link",
+      sortFn: sortFn,
+    })),
   ],
   right: [
-    Component.MobileOnly(Component.Explorer({folderClickBehavior: "link"})),
+    Component.MobileOnly(Component.Explorer({
+      folderClickBehavior: "link",
+      sortFn: sortFn,
+    })),
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
