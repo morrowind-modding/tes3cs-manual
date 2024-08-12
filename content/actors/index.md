@@ -23,5 +23,5 @@ Here are the major differences:
 > | **Movement**  | All characters can walk and swim  | Can be tagged to walk, fly, swim, or not move.   |
 > | **Dialogue**  | All characters have dialogue by default    | Creatures only have dialogue if you specifically tag it to them.   |
 > | **Stats**  | Characters have race, class, factions, etc.  | Creatures do not have a race, class, or faction.    |
-> | **[[skills|Skills]]**  | Characters get all 27 skills.  | Creatures have only 3 skills, that encompass the whole set of 27.  |
+> | **[[skills\|Skills]]**  | Characters get all 27 skills.  | Creatures have only 3 skills, that encompass the whole set of 27.  |
 > | **Items** | Characters can use all their items, and will select what weapons to use and clothes to wear. | Creatures cannot use their inventory. “Biped” creatures can use weapons and shields, but nothing else.   |
