@@ -3,11 +3,12 @@ title: Objects
 aliases:
   - Objects
   - Object Overview
+  - object
 description: The entire game is built using objects. They are the set of items and objects that make up the world.
 ---
 ## Object Overview
 
-The entire game is built using objects. They are the set of items and objects that make up the world. The object types are:
+The entire game is built using objects. They are the set of items and objects that make up the world. The [[objects/object-types/index|object types]] are:
 
 &nbsp; &nbsp; &nbsp; [[activator|Activator]]  
 &nbsp; &nbsp; &nbsp; [[alchemy|Alchemy]]  

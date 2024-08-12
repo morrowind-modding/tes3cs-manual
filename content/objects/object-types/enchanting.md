@@ -2,13 +2,14 @@
 title: Enchanting
 aliases:
   - Enchanting
+  - Enchantment
 description:
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 
 _Cast Type_: Cast When Used, Cast When Strikes, Cast Once, Constant Effect. Cast Once enchantments can only be placed on scroll book objects. Cast When Strikes can only be placed on weapons.
 
-_Effects_: Select effects associated with enchanting.
+_Effects_: Select [[magic|effects]] associated with enchanting.
 
 _Cost_: Number of enchantment points required to cast enchanting.
 

@@ -5,7 +5,7 @@ aliases:
   - Preview Window
 description: This window allows you to see a preview of the art for your selected object. You can also play the object’s animation.
 ---
-This window allows you to see a preview of the art for your selected object. You can also play the object’s animation. When selected, the Render Window will actually change into the Preview Window. &nbsp; The object currently selected in the Object Window will then be displayed. &nbsp; Closing the Preview Window will restore the Render Window.
+This window allows you to see a preview of the art for your selected object. You can also play the object’s [[actors/animation/index|animation]]. When selected, the [[the-render-window|Render Window]] will actually change into the Preview Window. &nbsp; The object currently selected in the [[the-object-window|Object Window]] will then be displayed. &nbsp; Closing the Preview Window will restore the Render Window.
 
 ## Rotating the Object  
 Use the arrow keys on your keyboard to rotate the object in the window.

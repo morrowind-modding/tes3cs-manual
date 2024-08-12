@@ -11,7 +11,7 @@ GetHealth
 SetHealth, Var  
 ModHealth, Var  
 
-Each of the above can use any stat available to the player or actor (NPCs and creatures). See the list below. “Scale” can be used on any object.
+Each of the above can use any stat available to the player or [[actors/index|actor]] ([[actors/character/npc|NPCs]] and [[actors/creature/index|creatures]]). See the list below. “Scale” can be used on any [[objects/index|object]].
 
 GetStat  
 Returns the current value of the stat.

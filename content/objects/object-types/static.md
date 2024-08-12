@@ -4,7 +4,7 @@ aliases:
   - Static
 description: Statics are objects that only serve as general building objects, This includes buildings, tunnel walls, posts, etc.
 ---
-Statics are objects that only serve as general building objects, This includes buildings, tunnel walls, posts, etc.
+Statics are objects that only serve as [[building-and-editing/index|general building]] objects, This includes buildings, tunnel walls, posts, etc.
 
 _ID_: The object’s unique ID.
 

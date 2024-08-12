@@ -9,7 +9,7 @@ ChangeWeather, RegionID, TypeEnum
 
 ChangeWeather, “West Gash”, 4
 
-Changes the weather in the specified region right now. The weather will begin transitioning immediately. It will reselect a new weather on the next weather update (12 hours).
+Changes the weather in the specified [[regions|region]] right now. The weather will begin transitioning immediately. It will reselect a new weather on the next weather update (12 hours).
 
 The weather type enum are as follows:
 

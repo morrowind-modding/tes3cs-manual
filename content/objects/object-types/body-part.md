@@ -4,7 +4,7 @@ aliases:
   - Body Part
 description: Body parts are the base pieces used to create NPCs. This includes all the objects used for a race’s skin as well as armor and clothes.
 ---
-Body parts are the base pieces used to create NPCs. This includes all the objects used for a race’s skin as well as armor and clothes.
+Body parts are the base pieces used to create [[objects/object-types/npc|NPCs]]. This includes all the objects used for a [[race|race's]] skin as well as [[armor]] and [[clothing|clothes]].
 
 _ID_: The object’s unique ID. (character limit: 32)
 

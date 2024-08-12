@@ -8,7 +8,7 @@ StopScript, ScriptName
 
 StopScript, GrandCouncil
 
-This stops a currently running global script.
+This stops a currently running [[global-scripts|global script]].
 
 ## See also:  
 [[script-running|ScriptRunning]], ScriptName  

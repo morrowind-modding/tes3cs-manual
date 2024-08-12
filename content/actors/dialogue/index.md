@@ -5,11 +5,11 @@ aliases:
   - Dialogue
 description: Dialogue in Morrowind is one large database that every NPC and creature pulls from.
 ---
-Dialogue in Morrowind is one large database that every NPC and creature pulls from. The basic principle being that a character will say the highest priority dialogue they pass all conditions for. If they pass no conditions, they have nothing to say about that topic.
+Dialogue in Morrowind is one large database that every [[actors/character/npc|NPC]] and [[actors/creature/index|creature]] pulls from. The basic principle being that a character will say the highest priority dialogue they pass all conditions for. If they pass no conditions, they have nothing to say about that topic.
 
 ## Adding, Deleting, and Editing Dialogue IDs
 
-You can add a new ID by right-clicking in the list on the left side of the Dialogue window and selecting "New." You can delete an ID by right-clicking in this list and selecting "Delete" or by selecting an ID and pressing the Delete key. You can edit an ID by selecting it and then clicking on it again with the left mouse button. Note that when you edit an ID which already exists in a master file, the editor marks the old ID as deleted and creates a new ID which exists only in your plugin.
+You can add a new ID by right-clicking in the list on the left side of the Dialogue window and selecting "New." You can delete an ID by right-clicking in this list and selecting "Delete" or by selecting an ID and pressing the Delete key. You can edit an ID by selecting it and then clicking on it again with the left mouse button. Note that when you edit an ID which already exists in a [[data-files/index|master file]], the editor marks the old ID as deleted and creates a new ID which exists only in your plugin.
 
 ## Topic
 
@@ -19,21 +19,21 @@ Hyperlinks in the editor are shown as <a href="#" onclick="return false;">hyperl
 
 Topic matching is not case-sensitive and will always match longer phrases before shorter ones and earlier phrases before later ones. If you had the topics "My cat is smart," "Smart as a cat," and "Cat," the phrase "My cat is smart as a cat" would match "<a href="#" onclick="return false;">My cat is smart</a> as a <a href="#" onclick="return false;">cat</a>." The phrase "My cat is as smart as a cat" would match "My <a href="#" onclick="return false;">cat</a> is as <a href="#" onclick="return false;">smart as a cat</a>."
 
-Topic matching for Creatures is slightly different than for NPCs. Creatures only get the dialogue that is assigned to their ID. If you assign dialogue to everyone in the Cell "Balmora" and you put a Scamp in Balmora, he will not have any of this dialogue.
+Topic matching for Creatures is slightly different than for NPCs. Creatures only get the dialogue that is assigned to their ID. If you assign dialogue to everyone in the [[building-and-editing/world/index|Cell]] "Balmora" and you put a Scamp in Balmora, he will not have any of this dialogue.
 
 ## Voice
 
 Voices have audio files attached to them which are played whenever a "voice" is called for. You can select which file is attached to each voice ID with the Sound Filename button.
 
-Alarm voices are not used, you should not see any.
+[[alarm|Alarm]] voices are not used, you should not see any.
 
 Attack voices are played while the NPC or Creature is attacking. Creatures generally have these tagged in their animations, so this is mainly for NPCs.
 
-Flee voices are played when an NPC is fleeing.
+[[flee|Flee]] voices are played when an NPC is fleeing.
 
-Hello voices are played when an NPC or Creature greets the player. At what distance this occurs is set by the Hello AI Setting.
+[[hello|Hello]] voices are played when an NPC or Creature greets the player. At what distance this occurs is set by the Hello AI Setting.
 
-Hit voices are played when the NPC or Creature takes damage. Again, most Creatures have these embedded in their animations.
+Hit voices are played when the NPC or Creature takes damage. Again, most Creatures have these embedded in their [[animation-sound|animations]].
 
 Idles play randomly. These are like "clutter" for voices. You control how often and under what conditions idles are played with the conditions here.
 
@@ -81,13 +81,13 @@ You cannot use Persuasion on Creatures, only NPCs.
 
 ## Journal
 
-Journals show the text that is added to the player's journal with the Journal script function. Each journal has an index, which is used with the Journal command. This tab just shows all the journals and their text and index. For more information about how to use journals, see the Journal command.
+Journals show the text that is added to the player's journal with the [[gameplay/scripting/functions/index#Faction|journal function]]. Each journal has an index, which is used with the Journal command. This tab just shows all the journals and their text and index. For more information about how to use journals, see the Journal command.
 
 Starting with Tribunal, you can also name journal entries for tracking quests and flag them as completed. See \[[QuestTitle|Quest Title]].
 
 ## Filter for
 
-Filter on the bottom left side of the dialogue window will show all the dialogue in a particular person. It will show all dialogue for that person's ID, race, class, gender, cell, etc... Some things such as local variable states and journal conditions are not checked in the editor, so the list you see with Filter is often larger than the list of topics someone will have in the game.
+Filter on the bottom left side of the dialogue window will show all the dialogue in a particular person. It will show all dialogue for that person's ID, [[race]], [[class]], gender, [[building-and-editing/world/index|cell]], etc... Some things such as local variable states and journal conditions are not checked in the editor, so the list you see with Filter is often larger than the list of topics someone will have in the game.
 
 ## Info / Response
 
@@ -95,7 +95,7 @@ The top right side of the window shows the text and some of the conditions for e
 
 When any topic (or Greeting or Voice, etc) is selected, the system looks through all the responses and returns the first one that matches all conditions. The search is done top to bottom. If you have more than one response with the same conditions, only the top one will ever be said. If you want to move an info in the list, select it and use the **Left and Right Arrow keys.** This will change its priority, but will also modify any info it goes past.
 
-The Info/Response window shows a few of the conditions which can be put on responses, such as Disposition, ID, Faction, Cell, and the six Function/Variables. This makes it easier to find certain bugs at a glance.
+The Info/Response window shows a few of the conditions which can be put on responses, such as [[disposition|Disposition]], ID, [[factions|Faction]], Cell, and the six Function/Variables. This makes it easier to find certain bugs at a glance.
 
 You can edit the text of each response in the large text window or, if the response is only a few characters, you can double-click in the Info/Response window and edit the text there. If you cut \& paste text into the editor, you should use the large text window, since the info/response window has a limit to the number of characters it can display. The large text window will let you enter up to 512 characters per response.
 
@@ -169,7 +169,7 @@ This button will update all the hyperlinks in all the text in the editor. With a
 
 ## Error Check Results
 
-This button will compile everything in the results field for all responses. It will display any warnings it finds while doing this (these are also saved to a file named warnings.txt in the Morrowind directory). It is a good idea to run this at least once before you release a plugin.
+This button will compile everything in the results field for all responses. It will display any warnings it finds while doing this (these are also saved to a file named warnings.txt in the Morrowind directory). It is a good idea to run this at least once before you release a [[data-files/index|plugin]].
 
 Warning: It is best to load your plugin, run the error check, and then close the editor and load your plugin again to fix any errors. Error Check Results can sometimes mark the responses it is checking and global variables as "changed." These then get saved into your plugin, which makes it larger than necessary and can interfere with other people's work.
 

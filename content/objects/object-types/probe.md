@@ -4,13 +4,13 @@ aliases:
   - Probe
 description: Probes are items used by thieves to disarm traps on doors or containers.
 ---
-Probes are items used by thieves to disarm traps on doors or containers. Like many other items, they also have a quality level multiplier.
+Probes are items used by thieves to disarm traps on [[door|doors]] or [[container|containers]]. Like many other items, they also have a quality level multiplier.
 
 _ID_: The object’s unique ID. (character limit: 32)
 
 _Name_: The object’s name. This is what appears in the game to player. (character limit: 32)
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Weight_: The weight of object (in pounds).
 

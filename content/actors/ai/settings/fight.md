@@ -4,7 +4,7 @@ aliases:
   - Fight
 description: An actors fight setting determines how prone the actor is to attacking the PC.
 ---
-An actors fight setting determines how prone the actor is to attacking the PC. When an actor’s fight setting hits 100, they will attack the PC.
+An [[actors/index|actors]] fight setting determines how prone the actor is to attacking the PC. When an actor’s fight setting hits 100, they will attack the PC.
 
 Player actions will increase (or decrease) an actor’s fight setting. These are:
 
@@ -12,7 +12,7 @@ Player actions will increase (or decrease) an actor’s fight setting. These are
 | -------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | **PC Distance**                                                | &#50;0 - (Char Distance \* 0.005)                                  | <span style="font-size:0.8rem">iFightDistanceBase - (Char Distance \* fFightD</span> |
 | **Attack Actor**                                               | &#49;00                                                            | <span style="font-size:0.8rem">iFightAttack</span>                                   |
-| **Disposition**                                                | ( 50 - Disposition )\*1                                            | <span style="font-size:0.8rem">(50 - Disposition) \* fFightDispMult</span>           |
+| **[[disposition\|Disposition]]**                                                | ( 50 - Disposition )\*1                                            | <span style="font-size:0.8rem">(50 - Disposition) \* fFightDispMult</span>           |
 | **Stealing**                                                   | &#53; \* Item Value                                                | <span style="font-size:0.8rem">fAlarmSt \* Item Value</span>                         |
 | **Pick Pocketing**                                             | &#50;5                                                             | <span style="font-size:0.8rem">iAlarmPickPocket</span>                               |
 | **Trespassing**                                                | &#50;5                                                             | <span style="font-size:0.8rem">iAlarmTresspass</span>                                |

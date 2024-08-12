@@ -4,7 +4,7 @@ aliases:
   - Activator
 description: An activator is any object that does something in the world, but cannot be picked up.
 ---
-An activator is any object that does something in the world, but cannot be picked up. Signs, flags, levers, pressure plates, etc. It may give off sound, flash lights, and any number of effects. Activators can also be given animation.
+An activator is any object that does something in the world, but cannot be picked up. Signs, flags, levers, pressure plates, etc. It may give off sound, flash lights, and any number of effects. Activators can also be given [[actors/animation/index|animation]].
 
 An activator will also show up in the world with a text label if it is given a “name”. It can still be activated (provided the script is written for this case).
 
@@ -16,7 +16,7 @@ _Count_: Number of times the object is placed in the game world
 
 _Name:_ The object’s name. This is what appears in the game to player. (character limit: 32)
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Add Art File_: Art used for object.
 

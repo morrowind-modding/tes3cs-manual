@@ -7,7 +7,7 @@ description: Here are the file names that are included with a brief explanation 
 ---
 Here are the file names that are included with a brief explanation of what they do:
 
-**Male Base animations** – This file contains the animations for every **humanoid** NPC in the game, as well as the Player when viewed in 3rd &nbsp; person mode. &nbsp; If you select this file in the editor, you can see the name of each animation and the frame at which the animation occurs.
+**Male Base animations** – This file contains the animations for every **humanoid** [[objects/object-types/npc|NPC]] in the game, as well as the Player when viewed in 3rd &nbsp; person mode. &nbsp; If you select this file in the editor, you can see the name of each [[actors/animation/index|animation]] and the frame at which the animation occurs.
 
 **Male Base animations (1st person)** – This file contains all the base animations for the Player Character as viewed in First Person. &nbsp; All male players will use this file.
 

@@ -10,7 +10,7 @@ _ID_: The object’s unique ID. (character limit: 32)
 
 _Name:_ The name of the book. (character limit: 32)
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Weight:_ The object’s weight (in pounds).
 
@@ -24,7 +24,7 @@ _Inventory Image_: Art used for icon representation of object.
 
 _Scroll_: If checked, book appears as scroll. If unchecked, book appears as a book.
 
-_Enchantment_: The number of enchantment points the item has. Used for enchanting.
+_Enchantment_: The number of [[enchanting|enchantment]] points the item has. Used for enchanting.
 
 _Enchanting_: The enchantment attached to the object. Can only attach “Cast Once” type enchantings and only to scrolls.
 

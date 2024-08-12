@@ -10,12 +10,12 @@ If ( OnActivate == 1)
 endif
 ```
 
-This function tells the object to do its default activation.
+This function tells the [[objects/index|object]] to do its default activation.
 
 | **Object Type** | **Activation** |
 | --- | --- |
-| NPC | Dialogue |
-| Container | Opens |
-| Door | Opens |
-| Weapon, armor, misc, etc | Picks Up |
+| [[objects/object-types/npc\|NPC]] | [[actors/dialogue/index\|Dialogue]] |
+| [[container||Container]] | Opens |
+| [[Door]] | Opens |
+| [[weapon\|Weapon]], [[armor]], [[misc-item\|misc]], etc | Picks Up |
 | Book/Scroll | Reads |

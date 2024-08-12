@@ -5,13 +5,13 @@ aliases:
   - Miscellaneous Items
 description: Miscellaneous Items are those mundane items that do not have specific use to the player, such as keys, forks, plates, cups, baskets, special rocks, etc.
 ---
- Miscellaneous Items are those mundane items that do not have specific use to the player, such as keys, forks, plates, cups, baskets, special rocks, etc. Their structure covers the most common set of object data.
+ Miscellaneous Items are those mundane items that do not have specific use to the player, such as keys, forks, plates, cups, baskets, special rocks, etc. Their structure covers the most common set of [[objects/index|object]] data.
 
 _ID_: The object’s unique ID. (character limit: 32)
 
 _Name_: The object’s name. This is what appears in the game to player. (character limit: 32)
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Weight_: The weight of object (in pounds).
 

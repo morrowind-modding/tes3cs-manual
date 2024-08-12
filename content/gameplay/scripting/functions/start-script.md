@@ -8,7 +8,7 @@ StartScript, ScriptName
 
 StartScript, GrandCouncil  
 
-This function starts a script running. This is a Global script. It is not attached to any object, so functions like moving, rotating, checking distances and such have no bearing in a global script.
+This function starts a [[gameplay/scripting/index|script]] running. This is a [[global-scripts|Global script]]. It is not attached to any [[objects/index|object]], so functions like moving, rotating, checking distances and such have no bearing in a global script.
 
 Global scripts are good for running complex quests, checking variables, or setting timers.
 

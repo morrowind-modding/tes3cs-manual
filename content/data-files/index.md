@@ -6,9 +6,10 @@ aliases:
   - esm
   - esp
   - plugins
+  - plug-in
 description: The Construction Set works off of a primary file called a TES file. This is basically a database of all of the data for the world
 ---
-The Construction Set works off of a primary file called a TES file. This is basically a database of all of the data for the world, including object data, dialogue, gameplay settings, object placements, AI settings, landscape, script commands, cells, etc. Basically everything that goes into the editor is stored in TES files. One giant database.
+The Construction Set works off of a primary file called a TES file. This is basically a database of all of the data for the world, including [[objects/index|object data]], [[actors/dialogue/index|dialogue]], [[gameplay-settings|gameplay settings]], [[the-render-window|object placements]], [[actors/ai/index|AI settings]], [[building-and-editing/landscape/index|landscape]], [[gameplay/scripting/commands/index|script commands]], [[building-and-editing/world/index|cells]], etc. Basically everything that goes into the editor is stored in TES files. One giant database.
 
 There are two types of TES files, masters (esm) and plug-ins (esp). A master file is autonomous. It relies on no information other than itself. A plug-in (esp) file relies on information from a Master TES file. _Plug-ins CANNOT refer to information in another plug-in. They can only refer to data from a master._ Plug-ins can refer to multiple master files.
 

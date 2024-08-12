@@ -8,7 +8,7 @@ _ID_: The object’s unique ID. (character limit: 32)
 
 _Name_: The object’s name. This is what appears in the game to player. (character limit: 32)
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Add Art File_: Art used for object.
 

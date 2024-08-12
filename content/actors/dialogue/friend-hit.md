@@ -4,7 +4,7 @@ aliases:
   - FriendHit
 description: Used in dialogue for when you attack a member of your group (like a follower)
 ---
-Used in dialogue for when you attack a member of your group (like a follower)
+Used in dialogue for when you attack a member of your group (like a [[follow|follower]])
 
 The return values are:
 

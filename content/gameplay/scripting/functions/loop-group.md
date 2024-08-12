@@ -8,7 +8,7 @@ LoopGroup GroupName, 2, \[flags\]
 LoopGroup Idle2  
 LoopGroup Idle2, 1  
 
-Plays the animation group defined by GroupName. The animation will be looped the number of times specified, and then return to the Idle animation. Optional flags can be used to start the group in different ways.
+Plays the [[animation-groups|animation group]] defined by GroupName. The [[actors/animation/index|animation]] will be looped the number of times specified, and then return to the Idle animation. Optional flags can be used to start the group in different ways.
 
 ## Flags  
 _0 = Normal_  

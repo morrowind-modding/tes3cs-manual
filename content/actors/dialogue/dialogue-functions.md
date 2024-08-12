@@ -5,7 +5,7 @@ aliases:
 description:
 ---
 ## Alarm  
-This returns the base value of the speaker's Alarm AI Setting.  
+This returns the base value of the speaker's [[alarm|Alarm]] AI Setting.  
 
 ## Alarmed  
 This is 1 if the speaker is currently Alarmed (has detected a crime) and 0 otherwise.  
@@ -25,13 +25,13 @@ Returns true (1) if the speaker is targeting a creature.
 This is 1 if the speaker detects the player and 0 otherwise.  
 
 ## Function Faction Rank Difference  
-This is the player's rank in the speaker's faction minus the speaker's rank. Note that the first rank in a faction is 0 and your "rank" is –1 if you do not belong to that faction. A return value of 0 is the same rank, 1 is PC is one rank higher, -2 is PC is two ranks lower.
+This is the player's rank in the speaker's [[factions|faction]] minus the speaker's rank. Note that the first rank in a faction is 0 and your "rank" is –1 if you do not belong to that faction. A return value of 0 is the same rank, 1 is PC is one rank higher, -2 is PC is two ranks lower.
 
 ## Fight  
-This is the AI Fight Setting of the speaker. This is the base value, not the value after disposition, distance, crime level, and so on have been added.  
+This is the AI [[fight|Fight]] Setting of the speaker. This is the base value, not the value after disposition, distance, crime level, and so on have been added.  
 
 ## Flee  
-This returns the base value of the speaker's Flee AI Setting.  
+This returns the base value of the speaker's [[flee|Flee]] AI Setting.  
 
 ## Friend Hit  
 [[friend-hit|Detailed explanation]].  
@@ -40,19 +40,19 @@ This returns the base value of the speaker's Flee AI Setting.
 This returns the percent health of the speaker.  
 
 ## Hello  
-This returns the base value of the speaker's Hello AI Setting.  
+This returns the base value of the speaker's [[hello|Hello]] AI Setting.  
 
 ## Level  
 This is the current level of the speaker.  
 
 ## PC Acrobatics  
-This is the player's current skill level in Acrobatics. There are other functions for the player's skills and attributes. They all work the same way. All of them return the current value of the attribute or skill, which includes disease, magical enhancements, etc.  
+This is the player's current [[skills|skill]] level in Acrobatics. There are other functions for the player's skills and attributes. They all work the same way. All of them return the current value of the attribute or skill, which includes disease, magical enhancements, etc.  
 
 ## Blight Disease  
 This is 1 if the player has a blight disease and 0 otherwise.  
 
 ## PC Clothing Modifier  
-This is the total value of all the clothing and armor the player is wearing. The value of your equipment changes the disposition of people in the game.  
+This is the total value of all the [[clothing]] and [[armor]] the player is wearing. The value of your equipment changes the disposition of people in the game.  
 
 ## PC Common Disease  
 This is 1 if the player has a common disease and 0 otherwise.  
@@ -98,7 +98,7 @@ This returns the speaker's reputation.
 This is 1 if the speaker and the player are in the same faction and 0 otherwise.  
 
 ## Same Race  
-This is 1 if the speaker and the player are of the same race and 0 otherwise.  
+This is 1 if the speaker and the player are of the same [[race]] and 0 otherwise.  
 
 ## Same Sex  
 This is 1 if the speaker and the player are of the same gender and 0 otherwise.  

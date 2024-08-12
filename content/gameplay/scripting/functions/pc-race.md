@@ -4,7 +4,7 @@ aliases:
   - PCRace
 description: If you want to know the race of the PC check the global flag PCRace.
 ---
-If you want to know the race of the PC check the global flag PCRace.
+If you want to know the [[race]] of the PC check the global flag PCRace.
 
 if ( Player-\>GetRace "Argonian" == 1)  
 &nbsp; &nbsp; &nbsp; set PCRace to 1  

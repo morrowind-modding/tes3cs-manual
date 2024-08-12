@@ -4,7 +4,7 @@ aliases:
   - Landscape Tutorial
 description: Landscaping is one of the key ways you can use in the Construction Set to give an area a unique look.
 ---
-You’ll probably want to read the tutorial on World Building first. Landscaping is one of the key ways you can use in the _Construction Set_ to give an area a unique look.
+You’ll probably want to read the [[getting-started/tutorials/index|tutorial]] on World Building first. [[building-and-editing/landscape/index|Landscaping]] is one of the key ways you can use in the _Construction Set_ to give an area a unique look.
 
 ## 1. &nbsp; &nbsp; Load your plugin file.
 
@@ -14,17 +14,17 @@ You’ll want to load your plugin first, “MyPlugin.esp” (see the World Build
 
 ## 2. &nbsp; &nbsp; Find an area to build on.
 
-Landscape is infinite in *Morrowind.* It goes on forever. Most of it is underwater though. An infinite ocean surrounds the game area. You can add your own islands and continents there, or modify the landscape on the existing map. If you wish to edit the landscape that is already there, you’ll probably want to find a place that isn’t too close to any existing towns. For our demo, we’ll start with an area off the existing continent that is just water.
+Landscape is infinite in *Morrowind.* It goes on forever. Most of it is underwater though. An infinite ocean surrounds the game area. You can [[landscape-shaping|add your own islands and continents]] there, or modify the landscape on the existing map. If you wish to edit the landscape that is already there, you’ll probably want to find a place that isn’t too close to any existing towns. For our demo, we’ll start with an area off the existing continent that is just water.
 
 ## 3. &nbsp; &nbsp; Shape the landscape.
 
 The landscape is a “height map” made up of vertices. You can pull these vertices up and down to shape the landscape. &nbsp; You can only move them up and down because this keeps the massive amount of landscape data to a reasonable level for storage.
 
-Click the landscape button on the toolbar to enter landscape editing mode. Your clicks in the render window will now move and select the landscape points, instead of world objects.
+Click the landscape button on the toolbar to enter landscape editing mode. Your clicks in the [[the-render-window|render window]] will now move and select the landscape points, instead of world objects.
 
 ![[using-landscape-editor-in-tes3cs.png]]
 
-A red circle shows how big of an area you will be pulling up and down. By changing the Radius and Falloff %, you choose how the vertices move as you select and move the mouse up and down. Start pulling the landscape up so it’s over the water.
+A red circle shows how big of an area you will be pulling up and down. By changing the Radius and Falloff %, you choose how the vertices move as you select and move the mouse up and down. Start pulling the landscape up so it’s over the [[water-layer|water]].
 
 ![[raising-landscape-above-water-in-tes3cs.png]]
 
@@ -38,13 +38,13 @@ It is best to edit the heights in wireframe mode, but switch often to textured m
 
 ## 4. &nbsp; &nbsp; Texture the landscape.
 
-Once you have a shape you like, you’ll want to texture it. Right clicking on the landscape paints it with your currently selected texture. Try to follow the shapes you have built. The landscape textures will automatically smooth into one another. If you get more than 2 textures hitting the same area, you’ll want to move some things around and try to get the texture match on the corner, as only 2 textures look perfect hitting the same spot. A landscape texture covers 4 landscape vertices, so you may also want to adjust the shape of the landscape when you see where the textures fall.
+Once you have a shape you like, you’ll want to [[landscape-texturing|texture it]]. Right clicking on the landscape paints it with your currently selected texture. Try to follow the shapes you have built. The landscape textures will automatically smooth into one another. If you get more than 2 textures hitting the same area, you’ll want to move some things around and try to get the texture match on the corner, as only 2 textures look perfect hitting the same spot. A landscape texture covers 4 landscape vertices, so you may also want to adjust the shape of the landscape when you see where the textures fall.
 
 ![[applying-textures-to-landscape-in-tes3cs.png]]
 
 ## 5. &nbsp; &nbsp; Place landscape foliage.
 
-Dress your landscape up with trees, rocks, bushes and anything else you can think of. Leave landscape editing and drag objects in from the object window. The larger trees and rocks are under the “static” tab and the plants and bushes are under “containers” since they contain ingredients such as berries. Once you get a bunch in you like, use the copy and paste functions to move groups around quickly.
+Dress your landscape up with trees, rocks, bushes and anything else you can think of. Leave landscape editing and drag objects in from the object window. The larger trees and rocks are under the “[[static]]” tab and the plants and bushes are under “[[container|containers]]” since they contain [[ingredient|ingredients]] such as berries. Once you get a bunch in you like, use the copy and paste functions to move groups around quickly.
 
 ![[placing-objects-on-landscape-in-tes3cs.png]]
 
@@ -56,7 +56,7 @@ The finishing touch on landscape is vertex coloring. Go back into landscape edit
 
 ## 7. &nbsp; &nbsp; Place dungeon entrance and link it.
 
-Now add an entrance into your dungeon we created in the World Building Tutorial. Drag in a door object from the object window. Double click the door and select the “Teleport” option and choose the Cell you want the door to go to, “My Cave of Death and Adventure” in this case. Do the same to the door in the dungeon, linking it to the outside. After you choose the Cell you want to go to, you’ll get to place a DoorMarker that shows the exact location the door goes to.
+Now add an entrance into your dungeon we created in the World Building Tutorial. Drag in a [[door]] object from the object window. Double click the door and select the “Teleport” option and choose the Cell you want the door to go to, “My Cave of Death and Adventure” in this case. Do the same to the door in the dungeon, linking it to the outside. After you choose the Cell you want to go to, you’ll get to place a DoorMarker that shows the exact location the door goes to.
 
 ![[selecting-a-doormarker-in-tes3cs.png]]
 

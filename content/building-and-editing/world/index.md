@@ -3,6 +3,7 @@ title: World
 aliases:
   - Cell Overview
   - World
+  - Cells
 description: Think of a cell as a mini-map. The entire game is made up of cells, for a huge continuous world.
 ---
 ## Cell Overview

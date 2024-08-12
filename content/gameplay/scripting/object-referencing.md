@@ -5,7 +5,7 @@ aliases:
   - objectID
 description: Other object Ids can be used in scripting to set and get the values of local variables from other objects in the world. You can also run functions on these object references.
 ---
-Other object Ids can be used in scripting to set and get the values of local variables from other objects in the world. You can also run functions on these object references.
+Other object Ids can be used in scripting to set and get the values of local variables from other objects in the world. You can also run [[gameplay/scripting/functions/index|functions]] on these [[objects/reference-data/index|object references]].
 
 There are two forms of object references:
 
@@ -18,7 +18,7 @@ There are two forms of object references:
 &nbsp; &nbsp; &nbsp; &nbsp; You can also use this method in an if statement:  
 &nbsp; &nbsp; &nbsp; &nbsp; `If ( MyObject->GetHealth > 50 )`
 
-You can also reference scripts (very useful for changing global script variables).
+You can also reference scripts (very useful for changing [[global-scripts|global script]] variables).
 
 NOTE: The scripting system looks at the _first_ object in the database, thus you should only reference objects that are somewhat unique.
 

@@ -7,4 +7,4 @@ description: Returns the original world position of the object on the selected a
 GetStartingPos, axis  
 GetStartingPos, Z
 
-Returns the original world position of the object on the selected axis (X, Y, or Z) in float. The position is the position the object was placed in the editor, not it’s current game state.
+Returns the original world position of the [[objects/index|object]] on the selected axis (X, Y, or Z) in float. The position is the position the object was placed in the editor, not it’s current game state.

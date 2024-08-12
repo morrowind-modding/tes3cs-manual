@@ -13,7 +13,7 @@ There are several sections for settings:
 
 Items &nbsp; &nbsp; &nbsp; &nbsp; Text used for standard item names.
 
-Magic &nbsp; &nbsp; &nbsp; &nbsp; Text used for magic effect names.
+Magic &nbsp; &nbsp; &nbsp; &nbsp; Text used for [[magic|magic effect]] names.
 
 Stats &nbsp; &nbsp; &nbsp; &nbsp; Text used for stat names.
 

@@ -15,11 +15,11 @@ _ID_: The object’s unique ID. (character limit: 32)
 
 _Radius:_ The radius in which the light should effect. Any object within the radius will get effected by the light.
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Can Carry_: Flag this if the light can be carried. Art for lights that can be carried must be centered where the character’s left hand is.
 
-_Off by default_: For lights that can be carried. This will make the light **not** affect the world when it is placed down. Useful for an unlit torch the player can find. When the player puts it down, it will be lit.
+_Off by default_: For lights that can be carried. This will make the light **not** affect the [[building-and-editing/world/index|world]] when it is placed down. Useful for an unlit torch the player can find. When the player puts it down, it will be lit.
 
 _Name_: The object’s name. Should only be used for lights you can pick-up. This is what appears in the game to player. (character limit: 32)
 

@@ -7,4 +7,4 @@ description: Returns the current world rotation angle of the object on the selec
 **GetAngle, axis**
 GetAngle, Z  
 
-Returns the current world rotation angle of the object on the selected axis (X, Y, or Z) in float.
+Returns the current world rotation angle of the [[objects/index|object]] on the selected axis (X, Y, or Z) in float.

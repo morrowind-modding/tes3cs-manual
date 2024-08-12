@@ -4,9 +4,9 @@ aliases:
   - Landscape Shaping
 description: To shape or edit the height of the landscape, either select the toolbar button or press H.
 ---
-To shape or edit the height of the landscape, either select the toolbar button or press **H**. **H** switches height editing on or off.
+To shape or edit the height of the landscape, either select the toolbar button or press **<kbd>H</kbd>**. **<kbd>H</kbd>** switches height editing on or off.
 
-Once you are in height editing mode, the pointer in the render window will select vertices on the landscape as opposed to objects.
+Once you are in height editing mode, the pointer in the [[the-render-window|render window]] will select vertices on the landscape as opposed to objects.
 
 **Clicking and holding** on a vertex allows you to move it. **Drag the mouse up and down** to change the height.
 
@@ -22,7 +22,7 @@ _Soften Vertices:_ &nbsp; With this selected, all vertices in the edit radius wi
 
 _Show Edit Radius:_ This simply displays the red edit circle in the render window or hides it.
 
-All Landscape starts at a height of –2000 units. Sea level is 0. Anything below 0 will be underwater. Thus when building a new area, you must pull the landscape up above the water.
+All Landscape starts at a height of –2000 units. [[water-layer|Sea level]] is 0. Anything below 0 will be underwater. Thus when building a new area, you must pull the landscape up above the water.
 
 ## See Also
 [[landscape-texturing|Landscape Texturing]]

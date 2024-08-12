@@ -2,9 +2,12 @@
 title: Magic
 aliases:
   - Magic
+  - Spells
+  - Spell
+  - Effects
 description: Magic in Morrowind is made of up magic effects. Magic effects are the basic building blocks of all the magic in the game.
 ---
-Magic in Morrowind is made of up magic effects. Magic effects are the basic building blocks of all the magic in the game. This includes spellmaking, alchemy, and enchanting. The settings for each magic effect are:
+Magic in Morrowind is made of up magic effects. Magic effects are the basic building blocks of all the magic in the game. This includes [[spellmaking]], [[alchemy]], and [[enchanting]]. The settings for each magic effect are:
 
 _Scale Speed:_ Speed multiplier for how fast the effect travels.
 
@@ -46,4 +49,4 @@ _Lighting Effect_:
 
 &nbsp; &nbsp; &nbsp; &nbsp; _Negative_: If checked, this makes the lighting “dark”. The color you selected for the light will be removed from the world, not added. So a white negative light will act like a black light.
 
-&nbsp; &nbsp; &nbsp; &nbsp; _Dynamic_: If checked, this tells the lighting to light up any dynamic or moving objects (such as characters and creatures). Dynamic lights slow the game down a little more.
+&nbsp; &nbsp; &nbsp; &nbsp; _Dynamic_: If checked, this tells the lighting to light up any dynamic or moving objects (such as [[objects/object-types/npc|characters]] and [[creature|creatures]]). Dynamic lights slow the game down a little more.

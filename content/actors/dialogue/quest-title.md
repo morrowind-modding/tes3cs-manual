@@ -4,7 +4,7 @@ aliases:
   - Quest Title
 description: With the Tribunal expansion, the journal can filter to display either all quests you have begun, or only those quests you haven't completed.
 ---
-With the Tribunal expansion, the journal can filter to display either all quests you have begun, or only those quests you haven't completed.
+With the Tribunal expansion, the [[actors/dialogue/index#Journal|journal]] can filter to display either all quests you have begun, or only those quests you haven't completed.
 
 In the editor, quest journals are entered in the Dialogue interface on the tab marked 'Journal'.
 

@@ -4,7 +4,7 @@ aliases:
   - Magic Effects List
 description: When using script commands with magic effects, the following values should be used.
 ---
-When using script commands with magic effects, the following values should be used.
+When using [[gameplay/scripting/index|script]] commands with [[magic]] effects, the following values should be used.
 
 sEffectWaterBreathing  
 sEffectSwiftSwim  

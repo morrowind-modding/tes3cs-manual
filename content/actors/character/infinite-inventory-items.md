@@ -5,7 +5,7 @@ aliases:
   - infinite
 description: Any container, NPC, or creature can have items in their possession that are marked as infinite.
 ---
-Any container, NPC, or creature can have items in their possession that are marked as infinite. These are marked by placing a negative amount in the container (such as –15). These items are always there, even if the NPC gives or sells them to the player.
+Any [[container]], [[objects/object-types/npc|NPC]], or [[creature]] can have items in their possession that are marked as infinite. These are marked by placing a negative amount in the container (such as –15). These items are always there, even if the NPC gives or sells them to the player.
 
 The only time they truly go away is when the player interacts with their container outside of bartering. This includes picking the NPC’s pocket, taking items off a corpse, or stealing from a chest.
 

@@ -4,7 +4,7 @@ aliases:
   - Animation
 description: Certain art files may contain animation for use with characters, creatures, or other objects.
 ---
-Certain art files may contain animation for use with characters, creatures, or other objects. Within a creature or character you can define the animation it uses in different circumstances.
+Certain art files may contain animation for use with [[actors/character/npc|characters]], [[actors/creature/index|creatures]], or other [[objects/index|objects]]. Within a creature or character you can define the animation it uses in different circumstances.
 
 The game uses [[animation-groups|animation groups]]. The game plays these groups when the correct situation arises.
 

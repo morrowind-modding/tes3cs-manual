@@ -4,7 +4,7 @@ aliases:
   - Using Variables in Functions
 description: Only certain functions can take variables as their arguments.
 ---
-Only certain functions can take variables as their arguments. These include:
+Only certain [[gameplay/scripting/functions/index|functions]] can take variables as their arguments. These include:
 
 HurtStandingActor, float  
 Journal "JournalID" value  

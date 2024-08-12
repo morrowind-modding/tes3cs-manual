@@ -7,21 +7,21 @@ description:
 ---
 ## Character 
 
-_ID:_ The object’s unique ID. Most NPCs Name and ID are the same for ease of use. Remember, this is the ID by which the NPC is referred to in all code and a script and is never seen by the player. (character limit: 24)
+_ID:_ The object’s unique ID. Most NPCs Name and ID are the same for ease of use. Remember, this is the ID by which the NPC is referred to in all code and a [[gameplay/scripting/index|script]] and is never seen by the player. (character limit: 24)
 
 _Name:_ The NPC’s name. This is what appears in the game to player. (character limit: 32)
 
-_Script:_ The script associated with the NPC.
+_Script:_ The [[gameplay/scripting/index|script]] associated with the NPC.
 
-_Race:_ Pick from available races.
+_Race:_ Pick from available [[race|races]].
 
 _Female_: If checked, NPC is female.
 
-_Class:_ The character’s class chosen from the editor’s list (Warrior, Spellsword, Mage, Bard, Agent, etc). Skills are predefined for the character based on Class and level. Custom classes that the creator wants to use must first be defined under the Character\\Class option.
+_Class:_ The character’s [[class]] chosen from the editor’s list (Warrior, Spellsword, Mage, Bard, Agent, etc). [[skills|Skills]] are predefined for the character based on Class and level. Custom classes that the creator wants to use must first be defined under the Character\\Class option.
 
 _Level:_ The level of the NPC. Used to automatically adjust attributes, skills, and health.
 
-_Faction:_ The group the NPC belongs to.
+_[[factions|Faction]]:_ The group the NPC belongs to.
 
 _Rank:_ Rank in the selected faction (cannot have Rank without Faction). List of Ranks taken from Faction’s list.
 
@@ -39,7 +39,7 @@ _Magicka:_ Defaults to (Int x class and race modifier). Can be manually edited b
 
 _Fatigue:_ Defaults to (Str+End+Agi+Wil). Can be manually edited.
 
-_Disposition:_ Starting disposition for the NPC. This is the unmodified base value, and will change in the game based on several factors.
+_Disposition:_ Starting [[disposition]] for the NPC. This is the unmodified base value, and will change in the game based on several factors.
 
 _Reputation:_ Fame level of the NPC. &nbsp; NPC’s who are more famous are more difficult to persuade.
 
@@ -49,14 +49,14 @@ _[[auto-calculate-stats|Auto Calculate Stats]]:_ Creates stats and spells automa
 
 _Skills:_ Value of each skill defined in its own field. Defaults defined by class and level.
 
-_Dialogue:_ Opens the dialogue window filtered for this NPC.
+_[[actors/dialogue/index|Dialogue]]:_ Opens the dialogue window filtered for this NPC.
 
-_Animation:_ Opens animation Window for this NPC’s animation file.
+_[[actors/animation/index|Animation]]:_ Opens animation Window for this NPC’s animation file.
 
 _[[actors/ai/index|AI]]:_ Opens AI window for this NPC.
 
-_Head \& Hair:_ Simply chose the available head and hair objects for this NPC. Only heads and hairs that have been defined under body parts for the NPC’s race and sex will be available.
+_Head \& Hair:_ Simply chose the available head and hair objects for this NPC. Only heads and hairs that have been defined under [[character-body-layout|body parts]] for the NPC’s race and sex will be available.
 
-_Inventory / Spell List:_ A list of any objects the NPC is carrying along with any spells he has available. Items of a negative value are [[objects/reference-data/infinite-inventory-items|infinite]]. Spells may include diseases, abilities, etc.
+_Inventory / Spell List:_ A list of any objects the NPC is carrying along with any [[magic|spells]] he has available. Items of a negative value are [[objects/reference-data/infinite-inventory-items|infinite]]. Spells may include diseases, abilities, etc.
 
 _Blocked:_ If checked, the specific object becomes read-only.

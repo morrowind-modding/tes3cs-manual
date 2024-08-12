@@ -8,7 +8,7 @@ ScriptRunning, ScriptName
 
 If ( ScriptRunning, MessageTest == 1 )
 
-This function returns 1 if the script you ask for is currently running. This is mainly used for global scripts that are written to run the more complex quests.
+This function returns 1 if the [[gameplay/scripting/index|script]] you ask for is currently running. This is mainly used for [[global-scripts|global scripts]] that are written to run the more complex quests.
 
 ## See also:  
 [[script-running|ScriptRunning]], ScriptName  

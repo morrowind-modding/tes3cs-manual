@@ -8,7 +8,7 @@ _ID_: The object’s unique ID. (character limit: 32)
 
 _Full Name_: The name of the spell. This is what appears in the game to player. (character limit: 32)
 
-_Effects_: The magic effects assigned to this spell.
+_Effects_: The [[magic]] effects assigned to this spell.
 
 _Cost_: Number of magicka points required to cast spell.
 
@@ -22,7 +22,7 @@ _Magnitude_ (min/max): The strength of the spell.
 
 _Type_: Spell types include: Abilities, Blight Disease, Disease, Curse, and Powers.
 
-_Auto Calculate Cost_: Automatically calculates the cost and value of the spell. Any spell that is auto-calculated may also be used by auto-calculated NPCs.
+_Auto Calculate Cost_: Automatically calculates the cost and value of the spell. Any spell that is auto-calculated may also be used by [[auto-calculate-stats|auto-calculated]] NPCs.
 
 _PC Start Spell_: If checked, this spell can be given to player at start of the game.
 

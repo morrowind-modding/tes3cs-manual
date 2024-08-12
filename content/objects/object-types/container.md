@@ -2,15 +2,16 @@
 title: Container
 aliases:
   - Container
+  - Containers
 description: Containers are unmovable objects in the world that hold or contain other objects.
 ---
-Containers are unmovable objects in the world that hold or contain other objects. This includes chests, crates, dressers, bags, and even bushes. Objects can be placed in and removed from containers. Bushes and such are referred to as _organic containers_. These containers have contents such as berries and leaves. They cannot have objects put into them in the game, only removed.
+Containers are unmovable objects in the world that hold or contain other [[objects/index|objects]]. This includes chests, crates, dressers, bags, and even bushes. Objects can be placed in and removed from containers. Bushes and such are referred to as _organic containers_. These containers have contents such as berries and leaves. They cannot have objects put into them in the game, only removed.
 
 _ID_: The object’s unique ID. (character limit: 24)
 
 _Name_: The object’s name. This is what appears in the game to player. (character limit: 32)
 
-_Script_: Opens script based window for specific flag setting either before or after the container is opened.
+_Script_: Opens [[gameplay/scripting/index|script]] based window for specific flag setting either before or after the container is opened.
 
 _Organic Container_: If checked, container is flagged as organic and cannot have objects placed into them, only removed.
 
@@ -20,7 +21,7 @@ _Weight:_ Containers cannot be moved, so this number represents the total weight
 
 _References Persist_: If checked, the object will remain persistent in world.
 
-_Animation_: Animation used for object.
+_Animation_: [[actors/animation/index|Animation]] used for object.
 
 _Add Art File_: Art used for object.
 

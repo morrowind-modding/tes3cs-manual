@@ -15,7 +15,7 @@ Displays a message on the screen. There are two basic types of MessageBoxes.
 1. &nbsp; &nbsp; One that displays just text. This is displayed at the bottom of the screen and will go away in a small amount of time.
 2. &nbsp; &nbsp; One that displays buttons the player can choose. This box stops time and displays itself in the center of the screen until the player chooses an option.
 
-Variable names can also be passed into the MessageBox command. These are displayed in the order they are used as parameters. The message must say _how_ the variable is to be displayed.
+[[declaring-variables|Variable]]] names can also be passed into the MessageBox command. These are displayed in the order they are used as parameters. The message must say _how_ the variable is to be displayed.
 
 | **Notation** | **Variable type** |
 | ------------ | ----------------- |

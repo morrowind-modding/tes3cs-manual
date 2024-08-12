@@ -10,7 +10,7 @@ _Name_: The object’s name. This is what appears in the game to player. (charac
 
 _Type_: The type of clothing. Also used as the base name.
 
-_Script_: The script assigned to object.
+_Script_: The [[gameplay/scripting/index|script]] assigned to object.
 
 _Weight_: The weight of armor (in pounds).
 
@@ -20,11 +20,11 @@ _Add Art File_: Art used for object.
 
 _Inventory Image_: Art used for icon representation of object.
 
-_Enchantment_: The number of enchantment points the item has. Used for enchanting.
+_Enchantment_: The number of [[enchanting|enchantment]] points the item has. Used for enchanting.
 
 _Enchanting_: The enchantment attached to the object.
 
-_Biped Object_: The body part for clothing piece. See Body Part.
+_Biped Object_: The body part for clothing piece. See [[body-part|Body Part]].
 
 _Male Armor/Female Clothing_: The corresponding body part ID created for clothing piece.
 

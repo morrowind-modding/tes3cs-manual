@@ -10,7 +10,7 @@ If ( GetCurrentPackage == 2 )
 endif  
 <br>
 
-Used for checking the current AI package an Actor is performing.
+Used for checking the current [[actors/ai/packages/index|AI package]] an [[actors/index|Actor]] is performing.
 
 The return values are:
 

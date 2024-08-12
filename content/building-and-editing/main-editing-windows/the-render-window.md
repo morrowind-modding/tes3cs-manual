@@ -5,7 +5,7 @@ aliases:
   - Render Window
 description: The Render window is the area where the world can be viewed and manipulated.
 ---
-The Render window is the area where the world can be viewed and manipulated. Objects can be moved, copied, deleted, edited. Much of the editing process involves dragging and dropping objects from the [[the-object-window|Object Window]] into the Render Window.
+The Render window is the area where the world can be viewed and manipulated. [[objects/index|Objects]] can be moved, copied, deleted, edited. Much of the editing process involves dragging and dropping objects from the [[the-object-window|Object Window]] into the Render Window.
 
 ## Moving your view (camera)  
 The camera can be moved in several ways:  
@@ -24,7 +24,7 @@ Selecting objects can be done multiple ways:
 - &nbsp; &nbsp; Drag a selection box to select multiple objects.
 
 ## Moving Objects  
-Only selected objects can be moved. You’ll know if you are able to move an object if the + symbol appears along with your cursor. Hold down the **left mouse button** and drag the object to move it.
+Only selected objects can be moved. You’ll know if you are able to move an object if the `+` symbol appears along with your cursor. Hold down the **left mouse button** and drag the object to move it.
 
 Objects move, by default on the horizontal (xy) plane. If you want to move an object vertically (z plane), hold down the **<kbd>Z</kbd>** key while moving the mouse. You can also lock the object’s movement to the world’s XY axis by holding down **<kbd>X</kbd>** while moving.
 
@@ -34,7 +34,7 @@ To rotate the object, hold down the **right mouse button** while moving the mous
 Press **<kbd>F</kbd>** to make objects fall. They will hit any object. You may have to press it multiple times if you have multiple objects selected that can fall onto each other. &nbsp; This is a quick way to get objects to “snap” to the floor, or a shelf, etc.
 
 ## Editing Object Data  
-Double clicking an object opens its properties window. Changes made to an object here that are not explicit reference data, such as ownership, are inherited by the other objects of this ID in the world.
+Double clicking an object opens its properties window. Changes made to an object here that are not explicit [[objects/reference-data/index|reference data]], such as [[ownership]], are inherited by the other objects of this ID in the world.
 
 If you edit weap\_longsword\_07, and make it do more damage, you have changed every weap\_longsword\_07 in the world. See also [[objects/reference-data/index|Object Reference]].
 

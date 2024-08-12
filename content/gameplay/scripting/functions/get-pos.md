@@ -7,4 +7,4 @@ description: Returns the current world position of the object on the selected ax
 **GetPos, axis**  
 GetPos, Z
 
-Returns the current world position of the object on the selected axis (X, Y, or Z) in float.
+Returns the current world position of the [[objects/index|object]] on the selected axis (X, Y, or Z) in float.
