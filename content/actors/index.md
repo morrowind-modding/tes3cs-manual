@@ -19,7 +19,7 @@ Here are the major differences:
 > [!NOTE|clean no-t txt-s]
 > | **Item** | **Character** | **Creature** |
 > | ---------- | ------------- | --------------- |
-> | **[[actors/animation/index|Animation]]** | All use the same file, called the base\_anim. | Most use their own animation file specific for themselves and can only perform the actions animated for them. Creatures tagged as “biped” can use animations in the base\_anim. |
+> | **[[actors/animation/index\|Animation]]** | All use the same file, called the base\_anim. | Most use their own animation file specific for themselves and can only perform the actions animated for them. Creatures tagged as “biped” can use animations in the base\_anim. |
 > | **Movement**  | All characters can walk and swim  | Can be tagged to walk, fly, swim, or not move.   |
 > | **Dialogue**  | All characters have dialogue by default    | Creatures only have dialogue if you specifically tag it to them.   |
 > | **Stats**  | Characters have race, class, factions, etc.  | Creatures do not have a race, class, or faction.    |
