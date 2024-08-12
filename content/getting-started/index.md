@@ -2,6 +2,7 @@
 title: Getting Started
 aliases:
   - The Elder Scrolls Construction Set
+  - Getting Started
 ---
 ## The Elder Scrolls Construction Set
 

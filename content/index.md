@@ -17,6 +17,14 @@ Originally packaged with Morrowind as a WinHelp `.hlp` file, most users will now
 
 **The first page** of the original documents is [[getting-started/index|The Elder Scrolls Construction Set]] - perhaps you would like to start there? However, there are many ways you can explore this site, _"and the choice is yours."_
 
+## Directory
+
+- [[getting-started/index|Getting Started]]
+- [[data-files/index|Data Files]]
+- [[building-and-editing/index|Building and Editing]]
+- [[objects/index|Objects]]
+- [[actors/index|Actors]]
+- [[gameplay/index|Gameplay]]
 ## Disclaimer
 
 This is not a revised version of the TES3CS help documentation - it is a historical document presented verbatim\* for posterity's sake.
