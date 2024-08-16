@@ -3,7 +3,7 @@ title: Door
 aliases:
   - Door
   - Doors
-description:
+description: The Door object defines doors which can be opened by the player or teleport them to new cells.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

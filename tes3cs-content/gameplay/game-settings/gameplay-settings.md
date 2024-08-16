@@ -2,6 +2,7 @@
 title: Gameplay Settings
 aliases:
   - Gameplay Settings
+description: Gameplay Settings control the numbers used in gameplay formulas.
 ---
 > [!Note|clean no-t n-th]
 > | Setting | Description |

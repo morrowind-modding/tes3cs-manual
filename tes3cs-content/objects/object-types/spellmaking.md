@@ -2,7 +2,7 @@
 title: Spellmaking
 aliases:
   - Spellmaking
-description:
+description: The Spellmaking object defines spells which can be used by actors and other objects.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

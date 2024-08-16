@@ -2,7 +2,7 @@
 title: Leveled Item
 aliases:
   - Leveled Item
-description:
+description: Leveled Items work much the same way as leveled creatures. The designer can fill the Leveled Items list with objects that will be interesting and leveled to the player.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

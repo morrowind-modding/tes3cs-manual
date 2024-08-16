@@ -3,7 +3,7 @@ title: NPC
 aliases:
   - Character
   - NPC
-description:
+description: An overview of the data of the NPC object type.
 ---
 ## Character 
 

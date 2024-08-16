@@ -2,7 +2,7 @@
 title: Dialogue Functions
 aliases:
   - Dialogue Functions
-description:
+description: An overview of Dialogue Functions in The Elder Scrolls Construction Set
 ---
 ## Alarm  
 This returns the base value of the speaker's [[alarm|Alarm]] AI Setting.  

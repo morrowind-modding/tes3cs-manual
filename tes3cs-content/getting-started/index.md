@@ -3,6 +3,7 @@ title: Getting Started
 aliases:
   - The Elder Scrolls Construction Set
   - Getting Started
+description: The Elder Scrolls Construction Set allows you to edit and create any data for use with The Elder Scrolls 3 Morrowind
 ---
 ## The Elder Scrolls Construction Set
 

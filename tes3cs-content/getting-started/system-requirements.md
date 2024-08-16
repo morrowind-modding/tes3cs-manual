@@ -2,7 +2,7 @@
 title: System Requirements
 aliases:
   - System Requirements
-description:
+description: System requirements to run The Elder Scrolls Construction Set
 ---
 Win95/98/2000/Me, 128 MB RAM, and hard drive space for game data files. It is recommended that it be run at 1024x768 or higher.
 

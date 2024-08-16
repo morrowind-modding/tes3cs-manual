@@ -2,6 +2,7 @@
 title: Animation Groups
 aliases:
   - Animation Groups
+description: The game uses animation groups. The game plays these groups when the correct situation arises.
 ---
 **Idle – Idle9**  
 **WalkForward**  

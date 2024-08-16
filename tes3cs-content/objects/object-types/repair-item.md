@@ -2,7 +2,7 @@
 title: Repair Item
 aliases:
   - Repair Item
-description:
+description: The Repair Item object type used to repair armor.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

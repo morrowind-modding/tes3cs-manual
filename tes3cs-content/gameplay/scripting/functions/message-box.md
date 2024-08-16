@@ -3,7 +3,7 @@ title: MessageBox
 aliases:
   - MessageBox
   - Message Box
-description: Displays a message on the screen.
+description: The MessageBox script function displays a message on the screen.
 ---
 MessageBox, “Message”, \[var1\], \[var2\], \[“button1”\], \[“button2”\]
 

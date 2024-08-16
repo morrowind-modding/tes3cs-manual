@@ -2,7 +2,7 @@
 title: Preferences
 aliases:
   - Preferences
-description:
+description: Setting preferences in The Elder Scrolls Construction Set
 ---
 ## Grid Snap / Use Grid  
 When Use Grid is checked, objects shown in the [[the-render-window|Render Window]] move only by the number of units in the “Grid Snap” field. &nbsp; This can be helpful when lining up room pieces. &nbsp; Multiples of 8 are effective with the original objects (32, 64, 128).

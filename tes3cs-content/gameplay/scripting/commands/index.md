@@ -3,7 +3,7 @@ title: Commands
 aliases:
   - Commands
   - Script Commands
-description:
+description: An overview of script commands used in The Elder Scrolls Construction Set
 ---
 ## Script Commands
 

@@ -3,7 +3,7 @@ title: Enchanting
 aliases:
   - Enchanting
   - Enchantment
-description:
+description: The Enchanting object type defines enchantments which can be assigned to other objects.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

@@ -1,11 +1,11 @@
 ---
-title: MoonPhases
+title: Moon Phases
 aliases:
   - MoonPhases
   - Moons
   - Masser
   - Secundus
-description:
+description: The GetMasserPhase and GetSecundusPhase functions can be used to track the phase of the moons.
 ---
 GetMasserPhase  
 GetSecundusPhase  

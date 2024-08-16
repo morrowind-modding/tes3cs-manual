@@ -2,7 +2,7 @@
 title: Naming Cells
 aliases:
   - Naming Cells
-description: All cells have Names.
+description: Naming cells in The Elder Scrolls Construction Set and the uses of cell names.
 ---
 All cells have Names. These names are used for:
 

@@ -3,7 +3,7 @@ title: Birthsign
 aliases:
   - Birthsign
   - Birthsigns
-description:
+description: An overview of the data of Birthsigns in The Elder Scrolls Construction Set
 ---
 **ID**: &nbsp; Allows you to enter, rename, or delete a Birthsign
 

@@ -2,7 +2,7 @@
 title: Sample Script
 aliases:
   - Sample Script
-description:
+description: An example of a Morrowind script showing the use of comments, variables and commands.
 ---
 ```mwscript
 Begin TestScript

@@ -2,7 +2,7 @@
 title: Ingredient
 aliases:
   - Ingredient
-description:
+description: The Ingredient object type defines ingredients for Alchemy and their effects.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

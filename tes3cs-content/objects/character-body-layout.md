@@ -2,7 +2,7 @@
 title: Character Body Layout
 aliases:
   - Character Body Layout
-description:
+description: The layout of body parts on a character
 ---
 ![[morrowind-character-body-part-layout.png]]
 

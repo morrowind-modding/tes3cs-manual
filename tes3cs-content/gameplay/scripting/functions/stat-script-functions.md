@@ -5,7 +5,7 @@ aliases:
   - GetStat
   - SetStat
   - ModStat
-description:
+description: Stat Script functions can be used to get or modify stats available to the player or actors.
 ---
 GetHealth  
 SetHealth, Var  

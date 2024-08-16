@@ -2,7 +2,7 @@
 title: Alchemy
 aliases:
   - Alchemy
-description:
+description: The Alchemy object type, used to define potions and their effects.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 

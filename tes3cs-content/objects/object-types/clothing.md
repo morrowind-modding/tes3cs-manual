@@ -2,7 +2,7 @@
 title: Clothing
 aliases:
   - Clothing
-description:
+description: The clothing object type used to define clothing and their properties, which can be worn by characters.
 ---
 _ID_: The object’s unique ID.&nbsp; (character limit: 32)
 

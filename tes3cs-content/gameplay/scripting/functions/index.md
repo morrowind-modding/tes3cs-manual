@@ -2,7 +2,7 @@
 title: Functions
 aliases:
   - Script Functions
-description:
+description: An overview of all script functions in The Elder Scrolls Construction Set
 ---
 ## Script Functions
 

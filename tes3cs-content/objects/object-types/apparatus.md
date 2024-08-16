@@ -2,7 +2,7 @@
 title: Apparatus
 aliases:
   - Apparatus
-description:
+description: The Apparatus object type, used to define apparatus for creating potions.
 ---
 _ID_: The object’s unique ID. (character limit: 32)
 
