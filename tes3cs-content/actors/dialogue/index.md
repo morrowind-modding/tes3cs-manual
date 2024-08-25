@@ -125,7 +125,7 @@ This assigns dialogue to a particular faction. Otherwise, it works just like Rac
 
 ### Rank
 
-This assigns dialogue to everyone of a certain rank or higher. If the Faction is blank, it will assign it to everyone of that rank or higher, regardless of their faction. For instance, Faction == Redoran and Rank == 3 will assign dialogue to everyone in House Redoran of Rank 3 and above. Faction == Blank and Rank == 7 will assign dialogue to everyone in the game with rank 7 or higher who belongs to any faction.
+This assigns dialogue to everyone of a certain rank or higher. If the Faction is blank, it will assign it to everyone of that rank or higher, regardless of their faction. For instance, `Faction == Redoran` and `Rank == 3` will assign dialogue to everyone in House Redoran of Rank 3 and above. `Faction == Blank` and `Rank == 7` will assign dialogue to everyone in the game with rank 7 or higher who belongs to any faction.
 
 ### Cell
 
