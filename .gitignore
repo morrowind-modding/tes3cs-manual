@@ -6,9 +6,9 @@ prof
 tsconfig.tsbuildinfo
 .obsidian/plugins
 .obsidian/*.json
-tes3cs-content/.obsidian/!snippets
-tes3cs-content/.obsidian/plugins
-tes3cs-content/.obsidian/*.json
+*-content/.obsidian/!snippets
+*-content/.obsidian/plugins
+*-content/.obsidian/*.json
 .quartz-cache
 private/
 .replit
