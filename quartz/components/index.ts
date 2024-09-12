@@ -21,6 +21,8 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 
+import TableOfContents2 from "./TableOfContents2"
+
 export {
   ArticleTitle,
   Content,
@@ -44,4 +46,6 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+
+  TableOfContents2,
 }
